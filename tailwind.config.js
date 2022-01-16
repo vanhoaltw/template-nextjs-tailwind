@@ -31,6 +31,10 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      backgroundImage: () => ({
+        'landing-background': " url('../public/images/background/Bg1.png')",
+        'cover-bacground': " url('../public/images/background/khung.png')",
+      }),
       colors: {
         primary: {
           light: 'var(--color-primary-light)',

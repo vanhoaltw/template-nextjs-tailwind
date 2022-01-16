@@ -1,13 +1,9 @@
-import type { ReactElement } from 'react'
+import HomeLayout from '../components/layout/HomeLayout'
 
 export default function HomePage() {
   return (
     <>
-      <div className="">Hello world</div>
+      <HomeLayout />
     </>
   )
 }
-
-// HomePage.getLayout = function getLayout(page: ReactElement) {
-//   return <FirstLayout>{page}</FirstLayout>
-// }
