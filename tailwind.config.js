@@ -32,8 +32,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: () => ({
-        'landing-background': " url('../public/images/background/Bg1.png')",
-        'cover-bacground': " url('../public/images/background/khung.png')",
+        'landing-background': " url('../public/images/section-1.png')",
+        'border-section-1': "url('../public/images/khung_section_1.png')",
       }),
       colors: {
         primary: {
