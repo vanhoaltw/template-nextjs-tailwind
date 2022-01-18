@@ -1,13 +1,14 @@
-import type { ReactElement } from 'react'
-
+import { BrowserView, MobileView } from 'react-device-detect'
+import MobileLayout from '../components/layout/MobileLayout'
 export default function HomePage() {
   return (
     <>
-      <div className="">Hello world</div>
+      <BrowserView>
+        <h1>This is rendered only in browser</h1>
+      </BrowserView>
+      <MobileView>
+        <MobileLayout></MobileLayout>
+      </MobileView>
     </>
   )
 }
-
-// HomePage.getLayout = function getLayout(page: ReactElement) {
-//   return <FirstLayout>{page}</FirstLayout>
-// }
