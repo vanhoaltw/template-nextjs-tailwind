@@ -1,22 +1,80 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { Menu } from '@headlessui/react'
 
 function Section1() {
   return (
     <>
       <div className="h-screen relative">
-        {/* Khung */}
+        {/* frame */}
         <div className="bg h-3/4">
-          <div className=" top-10 z-40 flex justify-between relative px-4 ">
-            <button className=" z-0 w-4/12  px-4">
-              <img src="/images/section-1/btn_home.png" alt="bg-image" />
-            </button>
-            <button className=" z-0 w-4/12  px-4">
-              <img src="/images/section-1/btn_pitch.png" alt="bg-full" />
-            </button>
+          <div className="absolute top-10 z-40 px-4 w-2/5 ">
+            <div className="px-4">
+              <Menu>
+                <Menu.Button>
+                  <button>
+                    <img src="/images/section-1/btn_home.png" alt="bg-image" />
+                  </button>
+                </Menu.Button>
+                <Menu.Items>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button>
+                        <img
+                          src="/images/section-1/btn_home.png"
+                          alt="bg-image"
+                        />
+                      </button>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button>
+                        <img
+                          src="/images/section-1/btn_home.png"
+                          alt="bg-image"
+                        />
+                      </button>
+                    )}
+                  </Menu.Item>
+                </Menu.Items>
+              </Menu>
+            </div>
+          </div>
+          <div className="absolute top-10 left-56 z-40 px-4 w-2/5 ">
+            <div className="px-4">
+              <Menu>
+                <Menu.Button>
+                  <button>
+                    <img src="/images/section-1/btn_pitch.png" alt="bg-image" />
+                  </button>
+                </Menu.Button>
+                <Menu.Items>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button>
+                        <img
+                          src="/images/section-1/btn_pitch.png"
+                          alt="bg-image"
+                        />
+                      </button>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button>
+                        <img
+                          src="/images/section-1/btn_pitch.png"
+                          alt="bg-image"
+                        />
+                      </button>
+                    )}
+                  </Menu.Item>
+                </Menu.Items>
+              </Menu>
+            </div>
           </div>
           <img
-            src="/images/section-1/khung-1.png"
+            src="/images/section-1/frame-1.png"
             alt="cover"
             className="absolute top-0 z-20 mt-1"
           />
