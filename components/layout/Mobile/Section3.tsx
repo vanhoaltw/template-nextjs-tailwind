@@ -3,7 +3,6 @@ import useWindowDimensions from '../../../lib/hooks/useWindowDimensions'
 
 function Section3() {
   const { height, width } = useWindowDimensions()
-  console.log('🚀 ~ file: Section3.tsx ~ line 7 ~ Section3 ~ height', height)
 
   return (
     <>
