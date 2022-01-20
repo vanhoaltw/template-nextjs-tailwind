@@ -5,12 +5,11 @@ import Section1 from './Mobile/Section1'
 function MobileLayout() {
   return (
     <>
-      {' '}
       <div className="block">
         {/* section-1 */}
         <Section1 />
       </div>
-      <div className="block mt-72">
+      <div className="block">
         <Section2 />
       </div>
     </>

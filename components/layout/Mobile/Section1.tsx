@@ -4,10 +4,10 @@ import { Menu } from '@headlessui/react'
 function Section1() {
   return (
     <>
-      <div className="h-screen relative">
+      <div className="relative">
         {/* frame */}
-        <div className="bg h-3/4">
-          <div className="absolute top-10 z-40 px-4 w-2/5 ">
+        <div className="absolute top-10 flex justify-between px-6 sm:px-20">
+          <div className="z-40 w-4/12 sm:1/12">
             <div className="px-4">
               <Menu>
                 <Menu.Button>
@@ -40,7 +40,7 @@ function Section1() {
               </Menu>
             </div>
           </div>
-          <div className="absolute top-10 left-56 z-40 px-4 w-2/5 ">
+          <div className="z-40 w-4/12 sm:1/12">
             <div className="px-4">
               <Menu>
                 <Menu.Button>
@@ -73,68 +73,81 @@ function Section1() {
               </Menu>
             </div>
           </div>
-          <img
-            src="/images/section-1/frame-1.png"
-            alt="cover"
-            className="absolute top-0 z-20 mt-1"
-          />
+        </div>
+
+        <img
+          src="/images/section-1/bg-1.png"
+          alt="w-96 object-fill"
+          className=""
+        />
+        <img
+          src="/images/section-1/frame-1.png"
+          alt="cover"
+          className="z-20 absolute top-0"
+        />
+        <div className="w-full flex flex-col items-center justify-center absolute top-0 z-30 ">
           <img
             src="/images/section-1/a-1.png"
             alt="asset-1"
-            className="absolute top-0 z-30 mt-1 p-32 pt-0"
+            className="w-2/5"
           />
           <img
             src="/images/section-1/logo.png"
             alt="logo"
-            className="absolute top-24 left-32 z-20 mt-1 w-1/3 "
+            className="w-1/3 ml-3 sm:ml-4 -mt-4"
           />
-          <img
-            src="/images/section-1/bg-1.png"
-            alt="bg-image"
-            className="absolute top-0 z-10 "
-          />
+        </div>
 
-          {/* char */}
-          <img
-            src="/images/section-1/char-1.png"
-            alt="bg-image"
-            className="absolute top-80 z-40 w-2/6"
-          />
-          <img
-            src="/images/section-1/char-2.png"
-            alt="bg-full"
-            className="absolute top-96 left-64 z-40 w-1/4  "
-          />
-          <button className="absolute bottom-24  left-28 z-40 w-5/12 mr-2 ">
+        {/* character */}
+        <div className="absolute top-72 sm:top-96 flex justify-between w-full z-40 ">
+          <div className="w-full">
+            <img
+              src="/images/section-1/char-1.png"
+              alt="bg-image"
+              className="z-40 w-4/6"
+            />
+          </div>
+          <div className="w-full flex justify-end mt-20 mr-5">
+            <img
+              src="/images/section-1/char-2.png"
+              alt="bg-full"
+              className="w-2/4"
+            />
+          </div>
+        </div>
+        {/* button play now*/}
+        <div className="absolute -bottom-12 w-full h-full flex flex-col items-center justify-end z-50">
+          <button className="w-5/12 mr-2">
             <img src="/images/section-1/btn_play.png" alt="bg-full" />
           </button>
-          <div className=" absolute bottom-7 z-40 flex justify-between  px-6   ">
-            <button className=" z-0 w-1/5  ">
+          <div className=" z-40 flex justify-between px-5">
+            <button className="z-0 w-1/5 ">
               <img src="/images/section-1/btn_story.png" alt="bg-image" />
             </button>
-            <button className=" z-0 w-1/5 ">
+            <button className="z-0 w-1/5">
               <img src="/images/section-1/btn_how.png" alt="bg-full" />
             </button>
           </div>
         </div>
-
-        <div className=" absolute bottom-0 z-0 h-2/5  ">
+      </div>
+      <div className="relative">
+        <div className="bottom-0 z-0">
           <div className=" block ">
             <img src="/images/section-1/bg.png" alt="bg-full" className=" " />
           </div>
 
-          <div className="block relative">
-            <img src="/images/section-1/footer.png" alt="bg-full" />
-            <div className=" absolute bottom-16 left-16 block w-8/12 ">
-              <img
-                src="/images/section-1/video.png"
-                alt="bg-full"
-                className=" "
-              />
+          <img src="/images/section-1/footer.png" alt="bg-full" />
+          <div className="absolute bottom-1/4 w-full flex items-center justify-center">
+            <img
+              src="/images/section-1/video.png"
+              alt="bg-full"
+              className="w-3/5"
+            />
+            <div className="w-full flex items-center justify-center absolute top-1/3">
+              <button className="z-40 w-1/12">
+                <img src="/images/section-1/btn_play_video.png" alt="bg-full" />
+              </button>
             </div>
-            <button className="absolute bottom-28  right-40 z-40 w-1/12  ">
-              <img src="/images/section-1/btn_play_video.png" alt="bg-full" />
-            </button>
           </div>
         </div>
       </div>
