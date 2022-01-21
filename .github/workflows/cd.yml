@@ -35,4 +35,4 @@ jobs:
         run: |
           scp -o 'StrictHostKeyChecking no' -r .next root@167.71.194.220:/var/www/tabbymoon/
           git checkout .
-          ssh root@167.71.194.220 'cd /var/www/tabbymoon/ && pm2 restart ecosystem.config.js && pm2 save'
+          ssh root@167.71.194.220 'cd /var/www/tabbymoon/ && git pull && pm2 restart ecosystem.config.js && pm2 save'
