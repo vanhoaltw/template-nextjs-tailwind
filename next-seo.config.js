@@ -1,20 +1,20 @@
 export default {
-  title: 'The FUSS - BroadLand Media™',
+  title: 'Tabby Moon - Covid-19 killer NFT Game',
   titleTemplate: '%s',
-  canonical: 'https://broadlandmedia.com',
+  canonical: 'https://tabbymoon.com',
   description:
-    'BroadLand Media™ is a media corporation working for Web3, Metaverse and focused on elevating crypto-native assets (NFT art, gaming, crypto platform) across a variety of mediums through the development of intellectual property and empowered by decentralization and crowdsourcing.',
+    'Tabby Moon is a Covid-19 killer NFT Game that supports Covid-19 patients over the world',
   additionalMetaTags: [
     {
       name: 'keywords',
       content:
-        'NFT, NFTs,  Crypto Assets, Decentralized, Blockchain, Mint, Minting NFT, NFT art, NFT arts, Metaverse, virtual Reality, The FUSS, Makingthefuss, The fuss nft, the fuss nft project, the fuss art, thefussnft',
+        'NFT Game, GameFi, Blockchain, Covid-19, Community, Charity, Play to Earn, Binance Smart Chain',
     },
   ],
   openGraph: {
     type: 'website',
-    locale: 'en_IE',
-    url: 'https://broadlandmedia.com',
-    site_name: 'The FUSS',
+    locale: 'en_US',
+    url: 'https://tabbymoon.com',
+    site_name: 'Tabby Moon',
   },
 }
