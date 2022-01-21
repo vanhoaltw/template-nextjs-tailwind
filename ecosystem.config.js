@@ -1,8 +1,8 @@
 module.exports = {
   apps: [
     {
-      name: 'Broadlandmedia',
-      script: '/root/.nvm/versions/node/v14.18.1/bin/yarn',
+      name: 'Tabby Moon',
+      script: '/usr/local/bin/yarn',
       args: 'start',
       instances: 1,
       exec_mode: 'cluster',
@@ -13,12 +13,12 @@ module.exports = {
   deploy: {
     production: {
       user: 'root',
-      host: '137.184.14.68',
+      host: '167.71.194.220',
       key: 'deploy.key',
-      ref: 'origin/main',
-      repo: 'git@github.com:moondevvn/broadlandmedia-next.git',
+      ref: 'origin/master',
+      repo: 'git@github.com:ravenvn/tabby_moon_web.git',
       ssh_options: ['StrictHostKeyChecking=no'],
-      path: '/var/www/broadlandmedia',
+      path: '/var/www/tabbymoon',
       'post-deploy': 'pm2 restart ecosystem.config.js && pm2 save',
     },
   },

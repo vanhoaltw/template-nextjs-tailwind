@@ -1,0 +1,37 @@
+name: CD
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_GITHUB_PRIVATE_KEY" > ~/.ssh/id_rsa
+          echo "$SSH_GITHUB_PUBLIC_KEY" > ~/.ssh/id_rsa.pub
+          sudo chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
+          echo "$SSH_GITHUB_PRIVATE_KEY" > ./deploy.key
+          sudo chmod 600 ./deploy.key
+        shell: bash
+        env:
+          SSH_GITHUB_PRIVATE_KEY: ${{secrets.SSH_GITHUB_PRIVATE_KEY}}
+          SSH_GITHUB_PUBLIC_KEY: ${{secrets.SSH_GITHUB_PUBLIC_KEY}}
+
+      - name: Install PM2
+        run: npm i pm2 yarn -g
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Builds the production application
+        run: yarn build
+
+      - name: Deploy
+        run: |
+          scp -o 'StrictHostKeyChecking no' -r .next root@167.71.194.220:/var/www/tabbymoon/
+          git checkout .
+          pm2 deploy ecosystem.config.js production
