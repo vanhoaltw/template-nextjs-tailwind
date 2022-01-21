@@ -33,5 +33,3 @@ jobs:
       - name: Deploy
         run: |
           scp -o 'StrictHostKeyChecking no' -r .next root@167.71.194.220:/var/www/tabbymoon/
-          git checkout .
-          pm2 deploy ecosystem.config.js production
