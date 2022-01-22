@@ -1,6 +1,6 @@
-function Section1() {
+function DesktopSection1() {
   return (
-    <div className="bg-1 bg-cover bg-center h-full w-full">
+    <div className="bg-desktop-1 bg-cover bg-center h-full w-full">
       {/* <img
         src="/images/desktop-section-1/main_background_1.png"
         className="w-full h-full"
@@ -15,7 +15,10 @@ function Section1() {
             />
             <div className="absolute top-0 w-full flex items-center justify-center">
               {[1, 2, 3, 4, 5, 6].map((item) => (
-                <button className="z-10 mx-1 mt-10 md:mt-14 lg:mt-20 w-1/12">
+                <button
+                  className="z-10 mx-1 mt-10 md:mt-14 lg:mt-20 w-1/12"
+                  key={item}
+                >
                   <img
                     src="/images/desktop-section-1/black_button.PNG"
                     alt=""
@@ -70,6 +73,6 @@ function Section1() {
   )
 }
 
-Section1.propTypes = {}
+DesktopSection1.propTypes = {}
 
-export default Section1
+export default DesktopSection1
