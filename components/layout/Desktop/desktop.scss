@@ -1,0 +1,52 @@
+.bg-desktop-1 {
+  background: url('/images/desktop-section-1/main_background_1.png') no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .bg-frame-1 {
+    background-image: url('/images/desktop-section-1/frame_1.PNG');
+    background-repeat: no-repeat;
+  }
+
+  .bg-image-1 {
+    background-image: url('/images/desktop-section-1/background_1.JPG');
+    background-repeat: no-repeat;
+    background-position: right 40px bottom 20px;
+  }
+
+  .bg-button-1 {
+    background-image: url('/images/desktop-section-1/black_button.PNG');
+    background-repeat: no-repeat;
+    background-position: right 40px bottom 20px;
+  }
+}
+
+.bg-image-3 {
+  background: url('/images/desktop-section-1/bg_character.JPG') no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+
+.bg-image-4 {
+  background: url('/images/desktop-section-1/main_background_4.png') no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-image-5 {
+  background: url('/images/desktop-section-1/main_background_5.png') no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
