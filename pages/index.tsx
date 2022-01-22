@@ -1,10 +1,11 @@
 import { BrowserView, MobileView } from 'react-device-detect'
-import MobileLayout from '../components/layout/MobileLayout'
+import DesktopLayout from '../components/layout/Desktop'
+import MobileLayout from '../components/layout/Mobile/MobileLayout'
 export default function HomePage() {
   return (
     <>
       <BrowserView>
-        <h1>This is rendered only in browser</h1>
+        <DesktopLayout></DesktopLayout>
       </BrowserView>
       <MobileView>
         <MobileLayout></MobileLayout>
