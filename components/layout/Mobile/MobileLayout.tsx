@@ -7,7 +7,6 @@ function MobileLayout() {
   return (
     <>
       <div className="block">
-        {/* section-1 */}
         <Section1 />
       </div>
       <div className="block">
