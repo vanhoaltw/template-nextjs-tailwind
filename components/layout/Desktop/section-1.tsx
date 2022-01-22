@@ -1,4 +1,4 @@
-function Section1() {
+function DesktopSection1() {
   return (
     <>
       {/* section-1 */}
@@ -194,6 +194,6 @@ function Section1() {
   )
 }
 
-Section1.propTypes = {}
+DesktopSection1.propTypes = {}
 
-export default Section1
+export default DesktopSection1
