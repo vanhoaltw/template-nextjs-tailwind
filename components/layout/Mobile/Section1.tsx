@@ -100,14 +100,14 @@ function Section1() {
 
         {/* character */}
         <div className="absolute top-72 sm:top-96 flex justify-between w-full z-40 ">
-          <div className="w-full">
+          <div className="w-full slide-bottom">
             <img
               src="/images/section-1/char-1.png"
               alt="bg-image"
               className="z-40 w-4/6"
             />
           </div>
-          <div className="w-full flex justify-end mt-20 mr-5">
+          <div className="w-full flex justify-end  mr-5 slide-bottom-left">
             <img
               src="/images/section-1/char-2.png"
               alt="bg-full"
