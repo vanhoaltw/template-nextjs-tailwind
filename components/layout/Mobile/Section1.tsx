@@ -137,11 +137,11 @@ function Section1() {
           </div>
 
           <img src="/images/section-1/footer.png" alt="bg-full" />
-          <div className="absolute bottom-1/4 w-full flex items-center justify-center">
+          <div className="absolute bottom-10 w-full flex items-center justify-center">
             <img
               src="/images/section-1/video.png"
               alt="bg-full"
-              className="w-3/5"
+              className="w-4/5"
             />
             <div className="w-full flex items-center justify-center absolute top-1/3">
               <button className="z-40 w-1/12">
