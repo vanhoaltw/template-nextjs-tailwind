@@ -15,6 +15,14 @@ function Section1() {
                 alt=""
                 className="w-full bg-image-1 bg-contain bg-center"
               />
+              {/* <div className="absolute top-0 w-full">
+                <video id="video">
+                  <source
+                    src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div> */}
               <div className="absolute top-0 w-full flex items-center justify-center">
                 {[1, 2, 3, 4, 5, 6].map((item) => (
                   <button
@@ -24,7 +32,7 @@ function Section1() {
                     <img
                       src="/images/desktop-section-1/black_button.PNG"
                       alt=""
-                      className=" w-full"
+                      className="w-full"
                     />
                   </button>
                 ))}
