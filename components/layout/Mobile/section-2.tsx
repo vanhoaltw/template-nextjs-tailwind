@@ -60,7 +60,7 @@ function Section2() {
               className="z-100 w-1/3 sm:w-1/4"
             />
             <img
-              src="/images/section-2/bt2.PNG"
+              src="/images/section-2/bt2.png"
               alt=""
               className="z-100 w-1/12"
             />
