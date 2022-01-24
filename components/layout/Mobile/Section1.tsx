@@ -8,8 +8,8 @@ function Section1() {
     <>
       <div className="relative">
         {/* frame */}
-        <div className="absolute top-10 flex justify-between px-6 sm:px-20">
-          <div className="z-40 w-4/12 sm:1/12">
+        <div className="absolute top-2 flex justify-between px sm:px-20">
+          <div className="z-40 w-2/6 xs:3/12 sm:1/12">
             <div className="px-4">
               <Menu>
                 <Menu.Button>
@@ -42,7 +42,7 @@ function Section1() {
               </Menu>
             </div>
           </div>
-          <div className="z-40 w-4/12 sm:1/12">
+          <div className="z-40 w-2/6 xs:3/12 sm:1/12">
             <div className="px-4">
               <Menu>
                 <Menu.Button>
@@ -82,11 +82,6 @@ function Section1() {
           alt="w-96 object-fill"
           className=""
         />
-        <img
-          src="/images/section-1/frame-1.png"
-          alt="cover"
-          className="z-20 absolute top-0"
-        />
         <div className="w-full flex flex-col items-center justify-center absolute top-0 z-30 ">
           <img
             src="/images/section-1/a-1.png"
@@ -101,24 +96,20 @@ function Section1() {
         </div>
 
         {/* character */}
-        <div className="absolute top-72 sm:top-96 flex justify-between w-full z-40 ">
-          <div className="w-full slide-bottom">
-            <img
-              src="/images/section-1/char-1.png"
-              alt="bg-image"
-              className="z-40 w-4/6"
-            />
-          </div>
-          <div className="w-full flex justify-end  mr-5 slide-bottom-left">
-            <img
-              src="/images/section-1/char-2.png"
-              alt="bg-full"
-              className="w-2/4"
-            />
-          </div>
+        <div className="absolute top-80 sm:top-96 flex flex-col justify-between w-full z-40 ">
+          <img
+            src="/images/section-1/character_mobile.png"
+            alt=""
+            className="w-5/12"
+          />
+          <img
+            src="/images/section-1/land_mobile.PNG"
+            alt=""
+            className="w-5/12"
+          />
         </div>
         {/* button play now*/}
-        <div className="absolute -bottom-12 w-full h-full flex flex-col items-center justify-end z-50">
+        <div className="absolute -bottom-16 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button className="w-5/12 mr-2">
             <img src="/images/section-1/btn_play.png" alt="bg-full" />
           </button>
@@ -137,7 +128,6 @@ function Section1() {
           <div className=" block ">
             <img src="/images/section-1/bg.png" alt="bg-full" className=" " />
           </div>
-
           <img src="/images/section-1/footer.png" alt="bg-full" />
           <div className="absolute bottom-10 w-full flex items-center justify-center">
             <img
