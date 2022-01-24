@@ -46,7 +46,7 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className=" absolute top-[-20%] flex items-center justify-center w-full  z-20">
+        <div className=" absolute top-[-20%] flex items-center justify-center w-full  z-20 shake-bottom">
           <img
             src="/images/section-3/egg_1.PNG"
             alt="bg-full"
@@ -68,16 +68,32 @@ function Section3() {
           />
         </div>
         <div className="absolute top-[22%] flex items-center justify-center w-full px-8">
-          <img
-            src="/images/section-3/random_card.PNG"
-            alt=""
-            className="z-100 w-1/2 px-2"
-          />
-          <img
-            src="/images/section-3/random_card.PNG"
-            alt=""
-            className="z-100 w-1/2 px-2"
-          />
+          <div className="flip-card  w-1/2 px-2">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <img src="/images/section-3/random_card.PNG" alt="Avatar" />
+              </div>
+              <div className="flip-card-back">
+                <img
+                  src="/images/section-3/Animation/Card/fbc619afa4264938d273df246d6928a4hYhs1xHBFlqpyd8V-1.png"
+                  alt="Avatar"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flip-card-2  w-1/2 px-2">
+            <div className="flip-card-inner-2">
+              <div className="flip-card-front-2">
+                <img src="/images/section-3/random_card.PNG" alt="Avatar" />
+              </div>
+              <div className="flip-card-back-2">
+                <img
+                  src="/images/section-3/Animation/Card/fbc619afa4264938d273df246d6928a4hYhs1xHBFlqpyd8V-0.png"
+                  alt="Avatar"
+                />
+              </div>
+            </div>
+          </div>
         </div>
         <div className="bg">
           <img
