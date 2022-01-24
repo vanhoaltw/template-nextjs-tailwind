@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Menu } from '@headlessui/react'
+import { Dialog } from '../../shared/dialog/dialog'
 
 function Section1() {
+  const [isOpenDialog, setIsOpenDialog] = useState(false)
   return (
     <>
       <div className="relative">
@@ -144,13 +146,26 @@ function Section1() {
               className="w-4/5"
             />
             <div className="w-full flex items-center justify-center absolute top-1/3">
-              <button className="z-40 w-1/12">
+              <button
+                className="z-40 w-1/12"
+                onClick={() => setIsOpenDialog(true)}
+              >
                 <img src="/images/section-1/btn_play_video.png" alt="bg-full" />
               </button>
             </div>
           </div>
         </div>
       </div>
+      <Dialog
+        mobileSizeMode={false}
+        isOpen={isOpenDialog}
+        onClose={() => setIsOpenDialog(false)}
+        className="w-full"
+      >
+        <video width="800" autoplay="true">
+          <source src="/images/desktop-section-1/intro.mp4" type="video/mp4" />
+        </video>
+      </Dialog>
     </>
   )
 }

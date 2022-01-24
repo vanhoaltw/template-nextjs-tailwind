@@ -1,4 +1,8 @@
+import { useState } from 'react'
+import { Dialog } from '../../shared/dialog/dialog'
+
 function DesktopSection1() {
+  const [isOpenDialog, setIsOpenDialog] = useState(false)
   return (
     <>
       {/* section-1 */}
@@ -95,7 +99,7 @@ function DesktopSection1() {
           />
         </div>
         <div className="absolute top-1/4 w-full flex items-center justify-center">
-          <button className="w-1/12">
+          <button className="w-1/12" onClick={() => setIsOpenDialog(true)}>
             <img
               src="/images/desktop-section-1/btn_play_video.png"
               alt=""
@@ -198,6 +202,15 @@ function DesktopSection1() {
           </div>
         </div>
       </div>
+      <Dialog
+        isOpen={isOpenDialog}
+        onClose={() => setIsOpenDialog(false)}
+        className="w-full"
+      >
+        <video width="800" autoplay="true">
+          <source src="/images/desktop-section-1/intro.mp4" type="video/mp4" />
+        </video>
+      </Dialog>
     </>
   )
 }
