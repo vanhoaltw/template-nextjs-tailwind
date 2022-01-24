@@ -207,7 +207,7 @@ function DesktopSection1() {
         onClose={() => setIsOpenDialog(false)}
         className="w-full"
       >
-        <video width="800" autoplay="true">
+        <video width="800" autoPlay>
           <source src="/images/desktop-section-1/intro.mp4" type="video/mp4" />
         </video>
       </Dialog>
