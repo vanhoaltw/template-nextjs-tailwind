@@ -107,14 +107,14 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute top-[-23%] left-2 flex items-center justify-center w-full ">
+        <div className="absolute top-[-23%] flex items-center justify-center w-full ">
           <img
             src="/images/section-3/character_potato.PNG"
             alt=""
             className="z-100 w-1/4"
           />
         </div>
-        <div className="absolute bottom-[10%] left-2 flex items-center justify-center w-full p-8">
+        <div className="absolute bottom-[10%] flex items-center justify-center w-full p-8">
           <img src="/images/section-3/stone_1.PNG" alt="" className="z-100 " />
         </div>
         <div className="bg">
