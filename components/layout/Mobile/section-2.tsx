@@ -20,12 +20,12 @@ function Section2() {
             className="absolute top-0 z-0 mt-12 sm:mt-20"
           />
         </div>
-        <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end">
+        <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
           <div className="w-full flex flex-col items-end justify-end">
             <img
               src="/images/section-2/covid1.PNG"
               alt=""
-              className="z-20 w-3/12 mr-1"
+              className="z-20 w-3/12 mr-1 "
             />
             <img
               src="/images/section-2/stone1.png"

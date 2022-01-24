@@ -96,11 +96,11 @@ function Section1() {
         </div>
 
         {/* character */}
-        <div className="absolute top-80 sm:top-96 flex flex-col justify-between w-full z-40 ">
+        <div className="absolute top-80 sm:top-96 flex flex-col justify-between w-full z-40 slide-bottom ">
           <img
             src="/images/section-1/character_mobile.png"
             alt=""
-            className="w-5/12"
+            className="w-5/12 "
           />
           <img
             src="/images/section-1/land_mobile.PNG"
@@ -109,7 +109,7 @@ function Section1() {
           />
         </div>
         {/* button play now*/}
-        <div className="absolute -bottom-16 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
+        <div className="absolute left-2 bottom-16 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button className="w-5/12 mr-2">
             <img src="/images/section-1/btn_play.png" alt="bg-full" />
           </button>
