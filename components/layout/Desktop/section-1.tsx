@@ -157,7 +157,7 @@ function DesktopSection1() {
                 className=""
               />
             </button>
-            {[1, 2, 3, 4, 5].map((item) => (
+            {[1, 2, 3, 1, 5].map((item) => (
               <button className="w-3/12" key={item}>
                 <img
                   src={`/images/desktop-section-1/card_${item}.PNG`}
