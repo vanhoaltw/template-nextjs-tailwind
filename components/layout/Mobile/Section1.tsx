@@ -113,6 +113,8 @@ function Section1() {
           <button className="w-5/12 mr-2">
             <img src="/images/section-1/btn_play.png" alt="bg-full" />
           </button>
+        </div>
+        <div className="absolute -bottom-12 w-full h-full flex flex-col items-center justify-end z-50">
           <div className=" z-40 flex justify-between px-5">
             <button className="z-0 w-1/5 ">
               <img src="/images/section-1/btn_story.png" alt="bg-image" />
