@@ -10,7 +10,7 @@ function Section3() {
         <img
           src="/images/section-3/infomation_1.png"
           alt=""
-          className="absolute -top-14 left-1 z-10 p-2"
+          className="absolute -top-14 z-10 p-2"
         />
         <div className="absolute bottom-[-30%]  flex items-center justify-center w-full  z-20">
           <button className="z-30 w-1/2 ">
@@ -29,12 +29,16 @@ function Section3() {
       <div className="relative">
         <div className=" absolute top-[20%] flex  items-center justify-center w-full  z-20">
           <img
-            src="/images/section-3/spin_egg.PNG"
+            src="/images/section-3/Animation/spin.gif"
             alt="bg-full"
-            className="z-30 w-5/6  absolute top-2 "
+            className="z-30 w-[80%]  absolute top-2 "
           />
-          <button className="z-30 w-1/4 mt-[30%] ">
-            <img src="/images/section-3/spin_button2.PNG" alt="bg-full" />
+
+          <button className="z-30 ml-[1%] w-[25%] mt-[32%] ">
+            <img
+              src="/images/section-3/Animation/spin_button.gif"
+              alt="bg-full"
+            />
           </button>
         </div>
         <div className="bg">
@@ -46,7 +50,7 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className=" absolute top-[-20%] flex items-center justify-center w-full  z-20 shake-bottom">
+        <div className=" absolute top-[-20%] flex items-center justify-center mx-auto w-full z-20 shake-bottom">
           <img
             src="/images/section-3/egg_1.PNG"
             alt="bg-full"
@@ -115,11 +119,19 @@ function Section3() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <img
-            src="/images/section-3/door_scene.JPG"
-            alt=""
+          <video
             className="absolute top-[46%]  z-0 w-full max-w-[400px]"
-          />
+            autoPlay
+            loop
+            muted
+            style={{
+              width: '100%',
+              height: 225,
+              objectFit: 'cover',
+            }}
+          >
+            <source src="/video/window.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
       <div className="relative">
@@ -160,11 +172,19 @@ function Section3() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <img
-            src="/images/section-3/door_scene.JPG"
-            alt=""
+          <video
             className="absolute top-[10%]  z-0 w-full"
-          />
+            autoPlay
+            loop
+            muted
+            style={{
+              width: '94%',
+              height: 299,
+              objectFit: 'cover',
+            }}
+          >
+            <source src="/video/door.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </>

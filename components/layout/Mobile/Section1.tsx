@@ -76,12 +76,19 @@ function Section1() {
             </div>
           </div>
         </div>
-
-        <img
-          src="/images/section-1/bg-1.png"
-          alt="w-96 object-fill"
-          className=""
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          style={{
+            width: '100%',
+            height: 600,
+            objectFit: 'cover',
+            zIndex: -100,
+          }}
+        >
+          <source src="/video/main_video.mp4" type="video/mp4" />
+        </video>
         <div className="w-full flex flex-col items-center justify-center absolute top-0 z-30 ">
           <img
             src="/images/section-1/a-1.png"
@@ -96,27 +103,27 @@ function Section1() {
         </div>
 
         {/* character */}
-        <div className="absolute top-80 sm:top-96 flex flex-col justify-between w-full z-40 slide-bottom ">
+        <div className="absolute top-72 sm:top-80 flex flex-col justify-between w-full z-40 slide-bottom ">
           <img
-            src="/images/section-1/character_mobile.png"
+            src="/images/section-1/character_mobile2.png"
             alt=""
-            className="w-5/12 "
-          />
-          <img
-            src="/images/section-1/land_mobile.PNG"
-            alt=""
-            className="w-5/12"
+            className="w-6/12 "
           />
         </div>
         {/* button play now*/}
-        <div className="absolute left-2 bottom-16 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
-          <button className="w-5/12 mr-2">
-            <img src="/images/section-1/btn_play.png" alt="bg-full" />
+        <div className="absolute bottom-20 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
+          <button className="w-5/12 relative flex items-center justify-center">
+            <div className="absolute top-8 play-now-animation">PLAY NOW</div>
+            <img
+              src="/images/animation/Play.gif"
+              alt="bg-full"
+              className="absolute top-0"
+            />
           </button>
         </div>
         <div className="absolute -bottom-12 w-full h-full flex flex-col items-center justify-end z-50">
           <div className=" z-40 flex justify-between px-5">
-            <button className="z-0 w-1/5 ">
+            <button className="z-0 w-1/5">
               <img src="/images/section-1/btn_story.png" alt="bg-image" />
             </button>
             <button className="z-0 w-1/5">
@@ -139,7 +146,7 @@ function Section1() {
             />
             <div className="w-full flex items-center justify-center absolute top-1/3">
               <button
-                className="z-40 w-1/12"
+                className="z-40 w-2/12"
                 onClick={() => setIsOpenDialog(true)}
               >
                 <img src="/images/section-1/btn_play_video.png" alt="bg-full" />
