@@ -10,7 +10,7 @@ function Section3() {
         <img
           src="/images/section-3/infomation_1.png"
           alt=""
-          className="absolute -top-14 left-1 z-10 p-2"
+          className="absolute -top-14 z-10 p-2"
         />
         <div className="absolute bottom-[-30%]  flex items-center justify-center w-full  z-20">
           <button className="z-30 w-1/2 ">
@@ -46,7 +46,7 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className=" absolute top-[-20%] flex items-center justify-center w-full  z-20 shake-bottom">
+        <div className=" absolute top-[-20%] flex items-center justify-center mx-auto w-full z-20 shake-bottom">
           <img
             src="/images/section-3/egg_1.PNG"
             alt="bg-full"
@@ -119,7 +119,6 @@ function Section3() {
             className="absolute top-[46%]  z-0 w-full max-w-[400px]"
             autoPlay
             loop
-            controls
             muted
             style={{
               width: '100%',
@@ -173,10 +172,9 @@ function Section3() {
             className="absolute top-[10%]  z-0 w-full"
             autoPlay
             loop
-            controls
             muted
             style={{
-              width: '100%',
+              width: '94%',
               height: 299,
               objectFit: 'cover',
             }}

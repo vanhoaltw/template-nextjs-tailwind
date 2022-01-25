@@ -79,7 +79,6 @@ function Section1() {
         <video
           autoPlay
           loop
-          controls
           muted
           style={{
             width: '100%',
@@ -104,11 +103,11 @@ function Section1() {
         </div>
 
         {/* character */}
-        <div className="absolute top-80 sm:top-96 flex flex-col justify-between w-full z-40 slide-bottom ">
+        <div className="absolute top-72 sm:top-80 flex flex-col justify-between w-full z-40 slide-bottom ">
           <img
-            src="/images/section-1/character_mobile.png"
+            src="/images/section-1/character_mobile2.png"
             alt=""
-            className="w-5/12 "
+            className="w-6/12 "
           />
         </div>
         {/* button play now*/}
@@ -116,7 +115,7 @@ function Section1() {
           <button className="w-5/12 relative flex items-center justify-center">
             <div className="absolute top-8 play-now-animation">PLAY NOW</div>
             <img
-              src="/images/section-1/btn_play.png"
+              src="/images/animation/Play.gif"
               alt="bg-full"
               className="absolute top-0"
             />

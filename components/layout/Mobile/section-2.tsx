@@ -14,11 +14,19 @@ function Section2() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <img
-            src="/images/section-2/bg1.jpg"
-            alt=""
-            className="absolute top-0 z-0 mt-12 sm:mt-20"
-          />
+          <video
+            className="absolute top-0 z-0 mt-10 sm:mt-20"
+            autoPlay
+            loop
+            muted
+            style={{
+              width: '100%',
+              height: 350,
+              objectFit: 'cover',
+            }}
+          >
+            <source src="/video/warriors.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
           <div className="w-full flex flex-col items-end justify-end">
@@ -43,6 +51,10 @@ function Section2() {
             alt=""
             className="z-100 absolute -top-14 sm:-top-20 w-full"
           />
+          <div className="z-200 absolute -top-20 sm:-top-24 w-full flex items-center justify-center">
+            <img src="/images/animation/Egg1.gif" alt="" className="w-1/4" />
+            <img src="/images/animation/Egg2.gif" alt="" className="w-1/4" />
+          </div>
           <div className="flex items-center justify-around mt-14 sm:mt-24">
             <img
               src="/images/section-2/bt1.PNG"
