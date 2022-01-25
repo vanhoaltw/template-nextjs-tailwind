@@ -146,7 +146,7 @@ function Section1() {
             />
             <div className="w-full flex items-center justify-center absolute top-1/3">
               <button
-                className="z-40 w-1/12"
+                className="z-40 w-2/12"
                 onClick={() => setIsOpenDialog(true)}
               >
                 <img src="/images/section-1/btn_play_video.png" alt="bg-full" />

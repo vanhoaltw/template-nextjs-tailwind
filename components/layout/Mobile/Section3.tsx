@@ -29,12 +29,16 @@ function Section3() {
       <div className="relative">
         <div className=" absolute top-[20%] flex  items-center justify-center w-full  z-20">
           <img
-            src="/images/section-3/spin_egg.PNG"
+            src="/images/section-3/Animation/spin.gif"
             alt="bg-full"
-            className="z-30 w-5/6  absolute top-2 "
+            className="z-30 w-[80%]  absolute top-2 "
           />
-          <button className="z-30 w-1/4 mt-[30%] ">
-            <img src="/images/section-3/spin_button2.PNG" alt="bg-full" />
+
+          <button className="z-30 ml-[1%] w-[25%] mt-[32%] ">
+            <img
+              src="/images/section-3/Animation/spin_button.gif"
+              alt="bg-full"
+            />
           </button>
         </div>
         <div className="bg">
@@ -122,7 +126,7 @@ function Section3() {
             muted
             style={{
               width: '100%',
-              height: 299,
+              height: 225,
               objectFit: 'cover',
             }}
           >
