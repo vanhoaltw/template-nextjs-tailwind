@@ -123,7 +123,7 @@ function Section3() {
             muted
             style={{
               width: '100%',
-              height: 299,
+              height: 225,
               objectFit: 'cover',
             }}
           >
