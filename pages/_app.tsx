@@ -7,6 +7,7 @@ import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
 import { AuthProvider } from '../lib/providers/auth-provider'
 import { AlertProvider } from '../lib/providers/alert-dialog'
+import { ParallaxProvider } from 'react-scroll-parallax'
 import { ToastProvider } from '../lib/providers/toast-provider'
 
 type NextPageWithLayout = NextPage & {
@@ -20,6 +21,7 @@ type AppPropsWithLayout = AppProps & {
 export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout ?? ((page) => page)
+
   return (
     <MoralisProvider
       appId="NZAXxtlGXuGlrsSMYvN9ZQBxPUNKPx6ONi9rPhFJ"
@@ -29,7 +31,9 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
         <AlertProvider>
           <AuthProvider>
             <DefaultSeo {...SEO} />
-            {getLayout(<Component {...pageProps} />)}
+            <ParallaxProvider>
+              {getLayout(<Component {...pageProps} />)}
+            </ParallaxProvider>
           </AuthProvider>
         </AlertProvider>
       </ToastProvider>

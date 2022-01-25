@@ -1,5 +1,6 @@
 import React from 'react'
 import useWindowDimensions from '../../../lib/hooks/useWindowDimensions'
+import { Parallax } from 'react-scroll-parallax'
 
 function Section3() {
   const { height, width } = useWindowDimensions()
@@ -135,13 +136,16 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute top-[-23%] flex items-center justify-center w-full ">
+        <Parallax
+          translateY={[-20, 330]}
+          className="absolute top-[-23%] flex items-center justify-center w-full ml-2 z-100"
+        >
           <img
             src="/images/section-3/character_potato.PNG"
             alt=""
-            className="z-100 w-1/4"
+            className=" w-1/4"
           />
-        </div>
+        </Parallax>
         <div className="absolute bottom-[10%] flex items-center justify-center w-full p-8">
           <img src="/images/section-3/stone_1.PNG" alt="" className="z-100 " />
         </div>
