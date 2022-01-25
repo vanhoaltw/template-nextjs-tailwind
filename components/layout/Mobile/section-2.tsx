@@ -14,11 +14,20 @@ function Section2() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <img
-            src="/images/section-2/bg1.jpg"
-            alt=""
+          <video
             className="absolute top-0 z-0 mt-12 sm:mt-20"
-          />
+            autoPlay
+            loop
+            controls
+            muted
+            style={{
+              width: '100%',
+              height: 299,
+              objectFit: 'cover',
+            }}
+          >
+            <source src="/video/warriors.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
           <div className="w-full flex flex-col items-end justify-end">

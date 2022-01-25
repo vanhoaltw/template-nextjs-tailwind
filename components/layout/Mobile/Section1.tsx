@@ -76,12 +76,20 @@ function Section1() {
             </div>
           </div>
         </div>
-
-        <img
-          src="/images/section-1/bg-1.png"
-          alt="w-96 object-fill"
-          className=""
-        />
+        <video
+          autoPlay
+          loop
+          controls
+          muted
+          style={{
+            width: '100%',
+            height: 600,
+            objectFit: 'cover',
+            zIndex: -100,
+          }}
+        >
+          <source src="/video/main_video.mp4" type="video/mp4" />
+        </video>
         <div className="w-full flex flex-col items-center justify-center absolute top-0 z-30 ">
           <img
             src="/images/section-1/a-1.png"
@@ -102,14 +110,9 @@ function Section1() {
             alt=""
             className="w-5/12 "
           />
-          <img
-            src="/images/section-1/land_mobile.PNG"
-            alt=""
-            className="w-5/12"
-          />
         </div>
         {/* button play now*/}
-        <div className="absolute left-2 bottom-16 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
+        <div className="absolute left-2 bottom-2 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button className="w-5/12 mr-2">
             <img src="/images/section-1/btn_play.png" alt="bg-full" />
           </button>
