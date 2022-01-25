@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 function Section2() {
   return (
     <>
@@ -58,6 +59,7 @@ function Section2() {
               alt=""
               className="z-100 w-1/12"
             />
+
             <img
               src="/images/section-2/card1.png"
               alt=""
@@ -85,11 +87,41 @@ function Section2() {
       </div>
       <div className="relative">
         <img src="/images/section-2/2a.JPG" alt="" className="z-0 w-full" />
-        <img
-          src="/images/section-2/character.PNG"
-          alt=""
-          className="z-100 w-full absolute top-0 mt-10"
-        />
+
+        <div className="z-100 w-full absolute top-[12%] mt-10 flex items-center justify-center">
+          <div className="z-100 w-[37%] absolute  top-[-135px] right-[75px]">
+            <img
+              src="/images/section-2/char1.png"
+              alt=""
+              data-aos="fade-left"
+            />
+          </div>
+          <img
+            src="/images/section-2/char_2.png"
+            alt=""
+            className="z-100 w-[42%] absolute  top-[105px] left-[15px]"
+            data-aos="fade-right"
+          />
+          <img
+            src="/images/section-2/char_3.png"
+            alt=""
+            className="z-100 w-[35%] absolute  top-[14.3rem] right-[45px]"
+            data-aos="fade-left"
+          />
+          <img
+            data-aos="fade-right"
+            src="/images/section-2/char_4.png"
+            alt=""
+            className="z-100 w-[35%] absolute  top-[31rem] left-[15px]"
+          />
+
+          <img
+            src="/images/section-2/stair.png"
+            alt=""
+            className="z-100  absolute top-[40%] px-4"
+          />
+        </div>
+
         <div className="absolute -top-4 flex items-center justify-center w-full">
           <img
             src="/images/section-2/name tab.png"
