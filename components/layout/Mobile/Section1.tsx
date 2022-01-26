@@ -85,7 +85,7 @@ function Section1() {
           <img
             src="/images/section-1/a-1.png"
             alt="asset-1"
-            className="w-2/5"
+            className="w-2/6"
           />
           <img
             src="/images/section-1/logo.gif"
