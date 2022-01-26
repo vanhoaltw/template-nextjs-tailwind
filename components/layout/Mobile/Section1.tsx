@@ -118,7 +118,7 @@ function Section1() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute top-12 z-40 flex justify-between px-5">
+        <div className="absolute bottom-1/2 z-40 flex justify-between px-5">
           <button className="z-0 w-1/5">
             <img
               src="/images/section-1/btn_story.png"

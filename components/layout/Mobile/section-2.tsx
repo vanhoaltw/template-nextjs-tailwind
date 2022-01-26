@@ -1,4 +1,5 @@
 import React from 'react'
+import { Carousel } from '@trendyol-js/react-carousel'
 function Section2() {
   return (
     <>
@@ -14,19 +15,11 @@ function Section2() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <video
-            className="absolute top-0 z-0 mt-10 sm:mt-20"
-            autoPlay
-            loop
-            muted
-            style={{
-              width: '99%',
-              height: 340,
-              objectFit: 'cover',
-            }}
-          >
-            <source src="/video/background.mp4" type="video/mp4" />
-          </video>
+          <img
+            src="/images/animation/mobile_2.gif"
+            alt=""
+            className="absolute top-12 h-96"
+          />
         </div>
         <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
           <div className="w-full flex flex-col items-end justify-end">
@@ -55,28 +48,60 @@ function Section2() {
             <img src="/images/animation/Egg1.gif" alt="" className="w-1/4" />
             <img src="/images/animation/Egg2.gif" alt="" className="w-1/4" />
           </div>
-          <div className="flex items-center justify-around mt-14 sm:mt-24">
-            <img
-              src="/images/section-2/bt1.PNG"
-              alt=""
-              className="z-100 w-1/12"
-            />
-
-            <img
-              src="/images/section-2/card1.png"
-              alt=""
-              className="z-100 w-1/3 sm:w-1/4"
-            />
-            <img
-              src="/images/section-2/card2.PNG"
-              alt=""
-              className="z-100 w-1/3 sm:w-1/4"
-            />
-            <img
-              src="/images/section-2/bt2.png"
-              alt=""
-              className="z-100 w-1/12"
-            />
+          <div className="mt-14 sm:mt-24">
+            <Carousel
+              show={2}
+              slide={1}
+              swiping={true}
+              transition={1}
+              rightArrow={
+                <div className="flex items-center h-full">
+                  <img
+                    src="/images/section-2/bt2.png"
+                    alt=""
+                    className="z-100 w-full"
+                  />
+                </div>
+              }
+              leftArrow={
+                <div className="flex items-center h-full">
+                  <img
+                    src="/images/section-2/bt1.PNG"
+                    alt=""
+                    className="z-100 w-full"
+                  />
+                </div>
+              }
+            >
+              <div className="flex items-center justify-center w-full">
+                <img
+                  src="/images/section-2/card1.png"
+                  alt=""
+                  className="z-100 w-4/5"
+                />
+              </div>
+              <div className="flex items-center justify-center w-full">
+                <img
+                  src="/images/section-2/card2.png"
+                  alt=""
+                  className="z-100 w-4/5"
+                />
+              </div>
+              <div className="flex items-center justify-center w-full">
+                <img
+                  src="/images/section-2/card1.png"
+                  alt=""
+                  className="z-100 w-4/5"
+                />
+              </div>
+              <div className="flex items-center justify-center w-full">
+                <img
+                  src="/images/section-2/card2.png"
+                  alt=""
+                  className="z-100 w-4/5"
+                />
+              </div>
+            </Carousel>
           </div>
           <div className="flex items-center justify-center w-full mt-1 sm:mt-16">
             <img
