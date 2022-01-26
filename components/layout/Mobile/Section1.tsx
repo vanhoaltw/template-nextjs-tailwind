@@ -90,22 +90,21 @@ function Section1() {
           <img
             src="/images/section-1/logo.gif"
             alt="logo"
-            className="w-1/3 ml-3 sm:ml-4 -mt-4"
+            className="w-[47%] ml-4 sm:ml-4 -mt-16"
           />
         </div>
 
         {/* character */}
-        <div className="absolute top-72 sm:top-80 flex flex-col justify-between w-full z-40 slide-bottom ">
+        <div className="absolute top-[40%]  flex flex-col justify-between w-full z-40 slide-bottom ">
           <img
             src="/images/section-1/character_mobile2.png"
             alt=""
-            className="w-6/12 "
+            className="w-[60%] "
           />
         </div>
         {/* button play now*/}
         <div className="absolute bottom-20 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button className="w-5/12 relative flex items-center justify-center">
-            <div className="absolute top-8 play-now-animation">PLAY NOW</div>
             <img
               src="/images/animation/Play.gif"
               alt="bg-full"

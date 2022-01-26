@@ -30,7 +30,7 @@ function Section3() {
       <div className="relative">
         <div className=" absolute top-[20%] flex  items-center justify-center w-full  z-20">
           <img
-            src="/images/section-3/Animation/spin.gif"
+            src="/images/animation/spin_2.gif"
             alt="bg-full"
             className="z-30 w-[80%]  absolute top-2 "
           />
@@ -171,7 +171,7 @@ function Section3() {
           <img
             src="/images/section-3/the_door.gif"
             alt=""
-            className="absolute top-[-10%]  z-0 w-full p-8 pt-12"
+            className="absolute top-[-8%]  z-0 w-full p-8 pt-12"
           />
         </div>
       </div>
