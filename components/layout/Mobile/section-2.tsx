@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
 function Section2() {
   return (
     <>
@@ -21,16 +20,19 @@ function Section2() {
             loop
             muted
             style={{
-              width: '100%',
-              height: 350,
+              width: '99%',
+              height: 340,
               objectFit: 'cover',
             }}
           >
-            <source src="/video/warriors.mp4" type="video/mp4" />
+            <source src="/video/background.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
-          <div className="w-full flex flex-col items-end justify-end">
+          <div
+            className="w-full flex flex-col items-end justify-end"
+            data-aos="fade-down-left"
+          >
             <img
               src="/images/section-2/covid1.PNG"
               alt=""
@@ -50,11 +52,22 @@ function Section2() {
           <img
             src="/images/section-2/egg.PNG"
             alt=""
+            data-aos="fade-top"
             className="z-100 absolute -top-14 sm:-top-20 w-full"
           />
           <div className="z-200 absolute -top-20 sm:-top-24 w-full flex items-center justify-center">
-            <img src="/images/animation/Egg1.gif" alt="" className="w-1/4" />
-            <img src="/images/animation/Egg2.gif" alt="" className="w-1/4" />
+            <img
+              src="/images/animation/Egg1.gif"
+              alt=""
+              className="w-1/4"
+              data-aos="fade-right"
+            />
+            <img
+              src="/images/animation/Egg2.gif"
+              alt=""
+              className="w-1/4"
+              data-aos="fade-left"
+            />
           </div>
           <div className="flex items-center justify-around mt-14 sm:mt-24">
             <img
@@ -90,39 +103,49 @@ function Section2() {
       </div>
       <div className="relative">
         <img src="/images/section-2/2a.JPG" alt="" className="z-0 w-full" />
-
-        <div className="z-100 w-full absolute top-[12%] mt-10 flex items-center justify-center">
-          <div className="z-100 w-[37%] absolute  top-[-135px] right-[75px]">
+        <img
+          src="/images/section-2/stair.png"
+          alt=""
+          className="absolute w-full top-0 z-50 mt-56"
+        />
+        <div className="z-100 w-full absolute top-0 mt-20 flex flex-col items-center justify-center">
+          <div className="grid grid-cols-2">
+            <div className=""></div>
             <img
               src="/images/section-2/char1.png"
               alt=""
-              data-aos="fade-left"
+              className="z-100 w-4/5"
+              data-aos="fade-down-left"
             />
           </div>
-          <img
-            src="/images/section-2/char_2.png"
-            alt=""
-            className="z-100 w-[42%] absolute  top-[105px] left-[15px]"
-            data-aos="fade-right"
-          />
-          <img
-            src="/images/section-2/char_3.png"
-            alt=""
-            className="z-100 w-[35%] absolute  top-[14.3rem] right-[45px]"
-            data-aos="fade-left"
-          />
-          <img
-            data-aos="fade-right"
-            src="/images/section-2/char_4.png"
-            alt=""
-            className="z-100 w-[35%] absolute  top-[31rem] left-[15px]"
-          />
+          <div className="grid grid-cols-2 mt-20">
+            <img
+              src="/images/section-2/char_2.png"
+              alt=""
+              className="z-100 w-full"
+              data-aos="fade-down-right"
+            />
+            <div className=""></div>
+          </div>
+          <div className="grid grid-cols-2">
+            <div className=""></div>
+            <img
+              src="/images/section-2/char_3.png"
+              alt=""
+              className="z-100 w-4/5"
+              data-aos="fade-down-left"
+            />
+          </div>
 
-          <img
-            src="/images/section-2/stair.png"
-            alt=""
-            className="z-100  absolute top-[40%] px-4"
-          />
+          <div className="grid grid-cols-2 mt-16">
+            <img
+              data-aos="fade-down-right"
+              src="/images/section-2/char_4.png"
+              alt=""
+              className="z-100 w-4/5"
+            />
+            <div className=""></div>
+          </div>
         </div>
 
         <div className="absolute -top-4 flex items-center justify-center w-full">

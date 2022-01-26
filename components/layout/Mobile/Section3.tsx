@@ -51,13 +51,13 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className=" absolute top-[-20%] flex items-center justify-center mx-auto w-full z-20 shake-bottom">
+        {/* <div className=" absolute top-[-20%] flex items-center justify-center mx-auto w-full z-20 shake-bottom">
           <img
             src="/images/section-3/egg_1.PNG"
             alt="bg-full"
             className="z-30 w-9/12"
           />
-        </div>
+        </div> */}
         <div className="absolute top-[3%] flex items-center justify-center w-full px-2">
           <img
             src="/images/section-3/iron_chain.png"
@@ -76,7 +76,11 @@ function Section3() {
           <div className="flip-card  w-1/2 px-2">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img src="/images/section-3/random_card.PNG" alt="Avatar" />
+                <img
+                  src="/images/section-3/random_card.PNG"
+                  alt="Avatar"
+                  data-aos="fade-right"
+                />
               </div>
               <div className="flip-card-back">
                 <img
@@ -89,7 +93,11 @@ function Section3() {
           <div className="flip-card-2  w-1/2 px-2">
             <div className="flip-card-inner-2">
               <div className="flip-card-front-2">
-                <img src="/images/section-3/random_card.PNG" alt="Avatar" />
+                <img
+                  src="/images/section-3/random_card.PNG"
+                  alt="Avatar"
+                  data-aos="fade-left"
+                />
               </div>
               <div className="flip-card-back-2">
                 <img
@@ -129,13 +137,13 @@ function Section3() {
       </div>
       <div className="relative">
         <Parallax
-          translateY={[-20, 330]}
-          className="absolute top-[-23%] flex items-center justify-center w-full ml-2 z-100"
+          translateY={[-80, 330]}
+          className="absolute top-[-23%] flex items-center justify-center w-full pl-4 z-100"
         >
           <img
             src="/images/section-3/character_potato.PNG"
             alt=""
-            className=" w-1/4"
+            className="w-1/4"
           />
         </Parallax>
         <div className="absolute bottom-[10%] flex items-center justify-center w-full p-8">
@@ -154,6 +162,7 @@ function Section3() {
           <img
             src="/images/section-3/character_pineapple.PNG"
             alt=""
+            data-aos="fade-down-right"
             className="z-100 w-1/2 "
           />
         </div>
@@ -171,7 +180,7 @@ function Section3() {
           <img
             src="/images/section-3/the_door.gif"
             alt=""
-            className="absolute top-[-8%]  z-0 w-full p-8 pt-12"
+            className="absolute top-[-10%] z-0 w-full p-8 pt-12"
           />
         </div>
       </div>
