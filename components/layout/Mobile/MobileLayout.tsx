@@ -6,13 +6,13 @@ import Section3 from './Section3'
 function MobileLayout() {
   return (
     <>
-      <div className="block">
+      <div className="block w-screen overflow-hidden">
         <Section1 />
       </div>
-      <div className="block">
+      <div className="block w-screen overflow-hidden">
         <Section2 />
       </div>
-      <div className="block">
+      <div className="block w-screen overflow-hidden">
         <Section3 />
       </div>
     </>

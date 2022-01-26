@@ -9,7 +9,7 @@ function Section1() {
       <div className="relative">
         {/* frame */}
         <div className="absolute top-2 flex justify-between px sm:px-20">
-          <div className="z-40 w-2/6 xs:3/12 sm:1/12">
+          <div className="z-40 w-2/6 xs:3/12 sm:1/12" data-aos="fade-right">
             <div className="px-4">
               <Menu>
                 <Menu.Button>
@@ -42,7 +42,7 @@ function Section1() {
               </Menu>
             </div>
           </div>
-          <div className="z-40 w-2/6 xs:3/12 sm:1/12">
+          <div className="z-40 w-2/6 xs:3/12 sm:1/12" data-aos="fade-left">
             <div className="px-4">
               <Menu>
                 <Menu.Button>
@@ -95,7 +95,7 @@ function Section1() {
         </div>
 
         {/* character */}
-        <div className="absolute top-72 sm:top-80 flex flex-col justify-between w-full z-40 slide-bottom ">
+        <div className="absolute top-80 flex flex-col justify-between w-full z-40 slide-bottom ">
           <img
             src="/images/section-1/character_mobile2.png"
             alt=""
@@ -103,8 +103,11 @@ function Section1() {
           />
         </div>
         {/* button play now*/}
-        <div className="absolute bottom-20 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
-          <button className="w-5/12 relative flex items-center justify-center">
+        <div className="absolute bottom-0 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
+          <button
+            className="w-5/12 relative flex items-center justify-center"
+            data-aos="fade-down"
+          >
             <div className="absolute top-8 play-now-animation">PLAY NOW</div>
             <img
               src="/images/animation/Play.gif"
@@ -113,24 +116,32 @@ function Section1() {
             />
           </button>
         </div>
-        <div className="absolute -bottom-12 w-full h-full flex flex-col items-center justify-end z-50">
+      </div>
+      <div className="relative">
+        <div className="absolute top-12 w-full h-full flex flex-col items-center z-50">
           <div className=" z-40 flex justify-between px-5">
             <button className="z-0 w-1/5">
-              <img src="/images/section-1/btn_story.png" alt="bg-image" />
+              <img
+                src="/images/section-1/btn_story.png"
+                alt="bg-image"
+                data-aos="fade-right"
+              />
             </button>
             <button className="z-0 w-1/5">
-              <img src="/images/section-1/btn_how.png" alt="bg-full" />
+              <img
+                src="/images/section-1/btn_how.png"
+                alt="bg-full"
+                data-aos="fade-left"
+              />
             </button>
           </div>
         </div>
-      </div>
-      <div className="relative">
         <div className="bottom-0 z-0">
           <div className=" block ">
             <img src="/images/section-1/bg.png" alt="bg-full" className=" " />
           </div>
           <img src="/images/section-1/footer.png" alt="bg-full" />
-          <div className="absolute bottom-10 w-full flex items-center justify-center">
+          <div className="absolute bottom-0 w-full flex items-center justify-center">
             <img
               src="/images/section-1/video.png"
               alt="bg-full"
