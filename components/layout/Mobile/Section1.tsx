@@ -90,7 +90,7 @@ function Section1() {
           <img
             src="/images/section-1/logo.gif"
             alt="logo"
-            className="w-1/3 ml-3 sm:ml-4 -mt-4"
+            className="w-[47%] ml-4 sm:ml-4 -mt-24"
           />
         </div>
 
@@ -99,7 +99,7 @@ function Section1() {
           <img
             src="/images/section-1/character_mobile2.png"
             alt=""
-            className="w-6/12 "
+            className="w-[60%] "
           />
         </div>
         {/* button play now*/}

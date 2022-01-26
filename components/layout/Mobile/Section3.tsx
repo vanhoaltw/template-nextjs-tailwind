@@ -30,7 +30,7 @@ function Section3() {
       <div className="relative overflow-hidden">
         <div className=" absolute top-[20%] flex  items-center justify-center w-full  z-20">
           <img
-            src="/images/section-3/Animation/spin.gif"
+            src="/images/animation/spin_2.gif"
             alt="bg-full"
             className="z-30 w-[80%]  absolute top-2 "
           />
