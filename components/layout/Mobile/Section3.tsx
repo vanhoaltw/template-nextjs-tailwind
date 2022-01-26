@@ -120,19 +120,11 @@ function Section3() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <video
-            className="absolute top-[46%]  z-0 w-full max-w-[400px]"
-            autoPlay
-            loop
-            muted
-            style={{
-              width: '100%',
-              height: 225,
-              objectFit: 'cover',
-            }}
-          >
-            <source src="/video/window.mp4" type="video/mp4" />
-          </video>
+          <img
+            src="/images/section-3/window.gif"
+            alt=""
+            className="absolute top-[50%]  z-0 w-full max-w-[400px]"
+          />
         </div>
       </div>
       <div className="relative">
@@ -176,19 +168,11 @@ function Section3() {
             alt=""
             className="absolute top-0 z-10"
           />
-          <video
-            className="absolute top-[10%]  z-0 w-full"
-            autoPlay
-            loop
-            muted
-            style={{
-              width: '94%',
-              height: 299,
-              objectFit: 'cover',
-            }}
-          >
-            <source src="/video/door.mp4" type="video/mp4" />
-          </video>
+          <img
+            src="/images/section-3/the_door.gif"
+            alt=""
+            className="absolute top-[-10%]  z-0 w-full p-8 pt-12"
+          />
         </div>
       </div>
     </>
