@@ -29,10 +29,7 @@ function Section2() {
           </video>
         </div>
         <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
-          <div
-            className="w-full flex flex-col items-end justify-end"
-            data-aos="fade-down-left"
-          >
+          <div className="w-full flex flex-col items-end justify-end">
             <img
               src="/images/section-2/covid1.PNG"
               alt=""
@@ -52,22 +49,11 @@ function Section2() {
           <img
             src="/images/section-2/egg.PNG"
             alt=""
-            data-aos="fade-top"
             className="z-100 absolute -top-14 sm:-top-20 w-full"
           />
           <div className="z-200 absolute -top-20 sm:-top-24 w-full flex items-center justify-center">
-            <img
-              src="/images/animation/Egg1.gif"
-              alt=""
-              className="w-1/4"
-              data-aos="fade-right"
-            />
-            <img
-              src="/images/animation/Egg2.gif"
-              alt=""
-              className="w-1/4"
-              data-aos="fade-left"
-            />
+            <img src="/images/animation/Egg1.gif" alt="" className="w-1/4" />
+            <img src="/images/animation/Egg2.gif" alt="" className="w-1/4" />
           </div>
           <div className="flex items-center justify-around mt-14 sm:mt-24">
             <img

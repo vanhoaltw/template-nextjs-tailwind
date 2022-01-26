@@ -12,7 +12,7 @@ function MobileLayout() {
       <div className="block w-screen overflow-hidden">
         <Section2 />
       </div>
-      <div className="block w-screen overflow-hidden">
+      <div className="block w-screen">
         <Section3 />
       </div>
     </>

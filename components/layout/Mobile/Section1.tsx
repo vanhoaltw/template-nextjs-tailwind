@@ -103,12 +103,12 @@ function Section1() {
           />
         </div>
         {/* button play now*/}
-        <div className="absolute bottom-0 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
+        <div className="absolute -bottom-4 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button
             className="w-5/12 relative flex items-center justify-center"
             data-aos="fade-down"
           >
-            <div className="absolute top-8 play-now-animation">PLAY NOW</div>
+            <div className="absolute top-0 play-now-animation">PLAY NOW</div>
             <img
               src="/images/animation/Play.gif"
               alt="bg-full"
@@ -118,56 +118,63 @@ function Section1() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute top-12 w-full h-full flex flex-col items-center z-50">
-          <div className=" z-40 flex justify-between px-5">
-            <button className="z-0 w-1/5">
-              <img
-                src="/images/section-1/btn_story.png"
-                alt="bg-image"
-                data-aos="fade-right"
-              />
-            </button>
-            <button className="z-0 w-1/5">
-              <img
-                src="/images/section-1/btn_how.png"
-                alt="bg-full"
-                data-aos="fade-left"
-              />
-            </button>
-          </div>
+        <div className="absolute top-12 z-40 flex justify-between px-5">
+          <button className="z-0 w-1/5">
+            <img
+              src="/images/section-1/btn_story.png"
+              alt="bg-image"
+              data-aos="fade-right"
+            />
+          </button>
+          <button className="z-0 w-1/5">
+            <img
+              src="/images/section-1/btn_how.png"
+              alt="bg-full"
+              data-aos="fade-left"
+            />
+          </button>
         </div>
-        <div className="bottom-0 z-0">
+        <div className="z-0">
           <div className=" block ">
             <img src="/images/section-1/bg.png" alt="bg-full" className=" " />
           </div>
           <img src="/images/section-1/footer.png" alt="bg-full" />
-          <div className="absolute bottom-0 w-full flex items-center justify-center">
+          <div className="absolute bottom-0 py-2 w-full flex items-center justify-center">
             <img
-              src="/images/section-1/video.png"
+              src="/images/animation/trailer_frame.png"
               alt="bg-full"
-              className="w-4/5"
+              className="w-5/6 "
             />
-            <div className="w-full flex items-center justify-center absolute top-1/3">
-              <button
-                className="z-40 w-2/12"
-                onClick={() => setIsOpenDialog(true)}
-              >
-                <img src="/images/section-1/btn_play_video.png" alt="bg-full" />
-              </button>
-            </div>
+            {!isOpenDialog ? (
+              <>
+                <img
+                  src="/images/animation/trailer_gif.gif"
+                  alt="bg-full"
+                  className="w-4/6 absolute top-6 z-100"
+                />
+                <div className="w-full flex items-center justify-center absolute top-1/3">
+                  <button
+                    className="z-200 w-2/12"
+                    onClick={() => setIsOpenDialog(true)}
+                  >
+                    <img
+                      src="/images/animation/play_trailer.gif"
+                      alt="bg-full"
+                    />
+                  </button>
+                </div>
+              </>
+            ) : (
+              <video autoPlay controls className="absolute top-6 z-100 w-4/6">
+                <source
+                  src="/images/desktop-section-1/intro.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            )}
           </div>
         </div>
       </div>
-      <Dialog
-        mobileSizeMode={false}
-        isOpen={isOpenDialog}
-        onClose={() => setIsOpenDialog(false)}
-        className="w-full"
-      >
-        <video width="800" autoPlay>
-          <source src="/images/desktop-section-1/intro.mp4" type="video/mp4" />
-        </video>
-      </Dialog>
     </>
   )
 }

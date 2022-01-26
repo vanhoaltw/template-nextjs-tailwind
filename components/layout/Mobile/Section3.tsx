@@ -7,11 +7,11 @@ function Section3() {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative z-200">
         <img
           src="/images/section-3/infomation_1.png"
           alt=""
-          className="absolute -top-14 z-10 p-2"
+          className="absolute -top-14 p-2 z-200"
         />
         <div className="absolute bottom-[-30%]  flex items-center justify-center w-full  z-20">
           <button className="z-30 w-1/2 ">
@@ -27,7 +27,7 @@ function Section3() {
           />
         </div>
       </div>
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div className=" absolute top-[20%] flex  items-center justify-center w-full  z-20">
           <img
             src="/images/animation/spin_2.gif"
@@ -50,7 +50,7 @@ function Section3() {
           />
         </div>
       </div>
-      <div className="relative">
+      <div className="relative overflow-hidden">
         {/* <div className=" absolute top-[-20%] flex items-center justify-center mx-auto w-full z-20 shake-bottom">
           <img
             src="/images/section-3/egg_1.PNG"
@@ -116,17 +116,17 @@ function Section3() {
           />
         </div>
       </div>
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div className="bg">
           <img
             src="/images/section-3/background_2_2.PNG"
             alt=""
-            className="static top-0 z-10"
+            className="static w-full top-0 z-10"
           />
           <img
             src="/images/section-3/background_2_2.PNG"
             alt=""
-            className="absolute top-0 z-10"
+            className="absolute w-full top-0 z-10"
           />
           <img
             src="/images/section-3/window.gif"
@@ -157,8 +157,8 @@ function Section3() {
           />
         </div>
       </div>
-      <div className="relative">
-        <div className="absolute bottom-[30%] flex items-start  w-3/4 px-4 ml-10">
+      <div className="relative overflow-hidden">
+        <div className="absolute bottom-[30%] flex items-start w-3/4 px-4 ml-10">
           <img
             src="/images/section-3/character_pineapple.PNG"
             alt=""
@@ -166,16 +166,16 @@ function Section3() {
             className="z-100 w-1/2 "
           />
         </div>
-        <div className="bg">
+        <div className="relative w-full">
           <img
             src="/images/section-3/background_2_4.PNG"
             alt=""
-            className="static top-0 z-10"
+            className="w-full z-10"
           />
           <img
             src="/images/section-3/background_2_4.PNG"
             alt=""
-            className="absolute top-0 z-10"
+            className="absolute w-full top-0 z-10"
           />
           <img
             src="/images/section-3/the_door.gif"
