@@ -103,7 +103,7 @@ function Section1() {
           />
         </div>
         {/* button play now*/}
-        <div className="absolute -bottom-4 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
+        <div className="absolute bottom-4 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button
             className="w-5/12 relative flex items-center justify-center"
             data-aos="fade-down"

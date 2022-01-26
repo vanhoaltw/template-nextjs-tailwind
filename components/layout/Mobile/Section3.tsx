@@ -28,14 +28,13 @@ function Section3() {
         </div>
       </div>
       <div className="relative overflow-hidden">
-        <div className=" absolute top-[20%] flex  items-center justify-center w-full  z-20">
+        <div className=" absolute top-[15%] flex  items-center justify-center w-full z-20">
           <img
             src="/images/animation/spin_2.gif"
             alt="bg-full"
-            className="z-30 w-[80%]  absolute top-2 "
+            className="z-30 w-[95%] absolute top-2 "
           />
-
-          <button className="z-30 ml-[1%] w-[25%] mt-[32%] ">
+          <button className="z-30 ml-[1%] w-[30%] mt-[37%] ">
             <img
               src="/images/section-3/Animation/spin_button.gif"
               alt="bg-full"
@@ -51,8 +50,8 @@ function Section3() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute top-[-15%] flex items-center justify-center mx-auto w-full z-20">
-          <div className="w-9/12  flex items-center justify-center shake-bottom">
+        <div className="absolute top-[-18%] flex items-center justify-center mx-auto w-full z-20">
+          <div className="w-11/12 flex items-center justify-center shake-bottom">
             <img
               src="/images/section-3/egg_1.PNG"
               alt="bg-full"

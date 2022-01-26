@@ -18,7 +18,7 @@ function Section2() {
           <img
             src="/images/animation/mobile_2.gif"
             alt=""
-            className="absolute top-12 h-96"
+            className="absolute top-24 scale-150"
           />
         </div>
         <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
@@ -73,34 +73,18 @@ function Section2() {
                 </div>
               }
             >
-              <div className="flex items-center justify-center w-full">
-                <img
-                  src="/images/section-2/card1.png"
-                  alt=""
-                  className="z-100 w-4/5"
-                />
-              </div>
-              <div className="flex items-center justify-center w-full">
-                <img
-                  src="/images/section-2/card2.PNG"
-                  alt=""
-                  className="z-100 w-4/5"
-                />
-              </div>
-              <div className="flex items-center justify-center w-full">
-                <img
-                  src="/images/section-2/card1.png"
-                  alt=""
-                  className="z-100 w-4/5"
-                />
-              </div>
-              <div className="flex items-center justify-center w-full">
-                <img
-                  src="/images/section-2/card2.PNG"
-                  alt=""
-                  className="z-100 w-4/5"
-                />
-              </div>
+              {[1, 2, 3, 4, 5].map((item) => (
+                <div
+                  className="flex items-center justify-center w-full"
+                  key={item}
+                >
+                  <img
+                    src={`/images/section-2/card_${item}.PNG`}
+                    alt=""
+                    className="z-100 w-4/5"
+                  />
+                </div>
+              ))}
             </Carousel>
           </div>
           <div className="flex items-center justify-center w-full mt-1 sm:mt-16">
@@ -119,8 +103,8 @@ function Section2() {
           alt=""
           className="absolute w-full top-0 z-50 mt-56"
         />
-        <div className="z-100 w-full absolute top-0 mt-20 flex flex-col items-center justify-center">
-          <div className="grid grid-cols-2">
+        <div className="z-100 w-full absolute top-0 mt-16 flex flex-col items-center justify-center">
+          <div className="grid grid-cols-2 pb-2">
             <div className=""></div>
             <img
               src="/images/section-2/char1.png"
@@ -129,7 +113,7 @@ function Section2() {
               data-aos="fade-down-left"
             />
           </div>
-          <div className="grid grid-cols-2 mt-20">
+          <div className="grid grid-cols-2 mt-[5.7em]">
             <img
               src="/images/section-2/char_2.png"
               alt=""
