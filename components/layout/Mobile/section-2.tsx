@@ -82,7 +82,7 @@ function Section2() {
               </div>
               <div className="flex items-center justify-center w-full">
                 <img
-                  src="/images/section-2/card2.png"
+                  src="/images/section-2/card2.PNG"
                   alt=""
                   className="z-100 w-4/5"
                 />
@@ -96,7 +96,7 @@ function Section2() {
               </div>
               <div className="flex items-center justify-center w-full">
                 <img
-                  src="/images/section-2/card2.png"
+                  src="/images/section-2/card2.PNG"
                   alt=""
                   className="z-100 w-4/5"
                 />
