@@ -90,7 +90,7 @@ function Section1() {
           <img
             src="/images/section-1/logo.gif"
             alt="logo"
-            className="w-[47%] ml-4 sm:ml-4 -mt-24"
+            className="w-[47%] ml-4 sm:ml-4 -mt-8"
           />
         </div>
 
