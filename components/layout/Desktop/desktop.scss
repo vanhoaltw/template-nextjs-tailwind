@@ -50,3 +50,41 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+@-webkit-keyframes up-and-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slide-bottom-1 {
+  -webkit-animation: up-and-down 4s linear infinite;
+  animation: up-and-down 6s linear infinite;
+}
+
+.slide-bottom-2 {
+  -webkit-animation: up-and-down 4s linear infinite;
+  animation: up-and-down 4s linear infinite;
+}
+
+.slide-bottom-3 {
+  -webkit-animation: up-and-down 4s linear infinite;
+  animation: up-and-down 3s linear infinite;
+}
