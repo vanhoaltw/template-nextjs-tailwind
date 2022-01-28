@@ -34,17 +34,36 @@ function DesktopSection2() {
       </div>
       {/* section-2 */}
       <div className="bg-desktop-2-2 h-full w-full relative">
-        <div className="w-full absolute top-0 flex justify-center items-center">
+        <div className="w-full absolute -top-4 flex justify-center items-center">
           <img
             src="/images/desktop-section-2/spin_tab.PNG"
             alt=""
-            className="w-[20%]"
+            className="w-[17%]"
           />
         </div>
-        <div className="absolute top-[7%] w-full flex items-center justify-evenly z-10 p-10 px-32 ">
-          <img src="/images/animation/spin.gif" alt="" className=" w-[40%]" />
+        <div className="absolute top-[7%] w-full flex items-center justify-center z-10 p-10 px-32 pr-[3rem]">
+          <img src="/images/animation/spin.gif" alt="" className=" w-[35%]" />
+          <button className="z-30 ml-[-22.6%] w-[27%] mt-[1.5%]  ">
+            <img
+              src="/images/section-3/Animation/spin_button.gif"
+              alt="bg-full"
+              className=" w-[40%]  "
+            />
+          </button>
+          <div className="z-200 absolute top-20 w-full flex items-center justify-around mr-16">
+            <img
+              src="/images/animation/Egg1.gif"
+              alt=""
+              className="w-1/4 p-44 "
+            />
+            <img
+              src="/images/animation/Egg2.gif"
+              alt=""
+              className="w-1/4 p-44 mr-8"
+            />
+          </div>
         </div>
-        <div className="w-full flex items-center justify-evenly z-10 p-10 px-32 ">
+        <div className=" w-full flex items-center justify-evenly z-10 p-10 px-32 ">
           <img
             src="/images/desktop-section-2/spin_tab_2.PNG"
             alt=""
