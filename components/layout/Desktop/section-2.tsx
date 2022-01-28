@@ -160,6 +160,32 @@ function DesktopSection2() {
             <img src="/images/section-3/the_door.gif" alt="" className=" " />
           </div>
         </div>
+        <div className="absolute bottom-[0%] w-full flex items-center justify-between z-20">
+          <div className="flex items-center justify-center">
+            <img
+              src="/images/desktop-section-2/logo_2.png"
+              className="w-2/12"
+            />
+            <img
+              src="/images/desktop-section-2/tabbymoon_text.png"
+              className="w-6/12"
+            />
+          </div>
+          <div className="flex items-center justify-center">
+            <button className="w-3/12">
+              <img src="/images/desktop-section-2/telegram.PNG" className="" />
+            </button>
+            <button className="w-2/12">
+              <img src="/images/desktop-section-2/twiter.PNG" className="" />
+            </button>
+            <button className="w-2/12">
+              <img src="/images/desktop-section-2/facebook.PNG" className="" />
+            </button>
+            <button className="w-2/12">
+              <img src="/images/desktop-section-2/discord.png" className="" />
+            </button>
+          </div>
+        </div>
       </div>
     </>
   )
