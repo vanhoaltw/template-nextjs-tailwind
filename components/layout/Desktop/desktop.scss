@@ -74,7 +74,14 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
+.bg-desktop-2-4 {
+  background: url('/images/desktop-section-2/background_2_4.PNG') no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 @-webkit-keyframes up-and-down {
   0% {
     transform: translateY(0);

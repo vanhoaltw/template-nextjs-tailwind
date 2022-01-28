@@ -146,7 +146,8 @@ function Section3() {
           <img
             src="/images/section-3/background_2_3.PNG"
             alt=""
-            className="static top-0 z-10"
+            data-aos="fade-down-right"
+            className="static top-0 z-10 "
           />
         </div>
       </div>
