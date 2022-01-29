@@ -33,15 +33,22 @@ function DesktopSection2() {
         </div>
       </div>
       {/* section-2 */}
-      <div className="bg-desktop-2-2 h-full w-full relative">
-        <div className="w-full absolute -top-4 flex justify-center items-center">
+      <div className=" h-full w-full relative">
+        <div className="bg">
+          <img
+            src="/images/desktop-section-2/background_2_2.PNG"
+            alt=""
+            className="static top-0 z-10 w-screen"
+          />
+        </div>
+        <div className="w-full absolute top-2 flex justify-center items-center">
           <img
             src="/images/desktop-section-2/spin_tab.PNG"
             alt=""
-            className="w-[17%]"
+            className="w-[20%]"
           />
         </div>
-        <div className="absolute top-[7%] w-full flex items-center justify-center z-10 p-10 px-32 pr-[3rem]">
+        <div className="absolute top-[18%] w-full flex items-center justify-center z-10 p-10 px-32 pr-[3rem]">
           <img src="/images/animation/spin.gif" alt="" className=" w-[35%]" />
           <button className="z-30 ml-[-22.6%] w-[27%] mt-[1.5%]  ">
             <img
@@ -63,16 +70,21 @@ function DesktopSection2() {
             />
           </div>
         </div>
-        <div className=" w-full flex items-center justify-evenly z-10 p-10 px-32 ">
+        <div className="absolute top-[10%] w-full flex items-center justify-evenly z-0 p-10 px-32 ">
           <img
             src="/images/desktop-section-2/spin_tab_2.PNG"
             alt=""
             className=" w-[80%] mt-44"
           />
         </div>
-        <div className="w-full flex justify-center items-center relative -bottom-8 z-10">
-          <div className="absolute top-[40%] w-[75%]  flex  p-10">
-            <div className="w-[55%] flex  ">
+        <div className=" absolute bottom-[-20%]  w-full flex justify-center items-center   z-10">
+          <img
+            src="/images/desktop-section-2/cards_tab1.PNG"
+            alt=""
+            className=" w-[80%]"
+          />
+          <div className="absolute  w-full  flex justify-center items-center px-14 ">
+            <div className="w-[55%] flex py-10 pl-20  ">
               {[1, 2, 3, 4].map((item) => (
                 <img
                   key={item}
@@ -96,11 +108,6 @@ function DesktopSection2() {
               </button>
             </div>
           </div>
-          <img
-            src="/images/desktop-section-2/cards_tab1.PNG"
-            alt=""
-            className=" w-[80%] mt-44"
-          />
         </div>
       </div>
       {/* section-3 */}

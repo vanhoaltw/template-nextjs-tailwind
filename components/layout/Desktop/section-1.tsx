@@ -42,7 +42,7 @@ function DesktopSection1() {
                   />
                 </button>
               </div>
-              <div className="absolute top-1/3 w-full flex items-center justify-center z-10">
+              <div className="absolute top-[16.33%] w-full flex items-center justify-center z-10">
                 <img
                   src="/images/animation/logo.gif"
                   className="w-2/12 lg:w-2/12"
@@ -89,8 +89,22 @@ function DesktopSection1() {
             </div>
           </div>
           <div className="w-full px-20">
-            <div className="relative">
+            <div className="relative ">
               <div className="w-full flex items-center justify-center">
+                <div className="absolute -top-10 w-[50%] flex items-center justify-between">
+                  <button className="z-10 mx-1 mt-10 md:mt-14 lg:mt-20 w-[18%]">
+                    <img
+                      src="/images/desktop-section-1/blue_button.PNG"
+                      className="w-full"
+                    />
+                  </button>
+                  <button className="z-10 mx-1 mt-10 md:mt-14 lg:mt-20 w-[18%]">
+                    <img
+                      src="/images/desktop-section-1/red_button.PNG"
+                      className="w-full"
+                    />
+                  </button>
+                </div>
                 <img
                   src="/images/desktop-section-1/tab_1.PNG"
                   className="w-9/12"
@@ -144,7 +158,7 @@ function DesktopSection1() {
           src="/images/desktop-section-1/main_background_2.png"
           className="w-full h-full"
         />
-        <div className="absolute -top-5 w-full flex items-center justify-center">
+        <div className="absolute -top-8 w-full flex items-center justify-center">
           <img src="/images/desktop-section-1/video.png" className="w-3/5" />
         </div>
         <div className="absolute top-1/4 w-full flex items-center justify-center">
@@ -250,7 +264,7 @@ function DesktopSection1() {
           src="/images/desktop-section-1/main_background_5.png"
           className="w-full h-full"
         />
-        <div className="absolute top-0 mt-96 w-full flex flex-col items-center justify-center">
+        <div className="absolute top-10 mt-96 w-full flex flex-col items-center justify-center">
           <div className="w-full flex justify-center items-center">
             <img
               src="/images/desktop-section-1/floor_1.PNG"
@@ -259,34 +273,34 @@ function DesktopSection1() {
           </div>
         </div>
         <div
-          className="absolute top-[1%] right-[40%]"
+          className="absolute top-[2.5%] right-[40%]"
           data-aos="fade-down-right"
         >
           <img src="/images/section-2/char_3.png" className="w-[80%]" />
         </div>
         <div
-          className="absolute top-[18.5%] right-[6%]"
+          className="absolute top-[20.5%] right-[6%]"
           data-aos="fade-down-left"
         >
           <img src="/images/section-2/char1.png" className="w-[90%]" />
         </div>
 
         <div
-          className="absolute top-[37%] right-[70%]"
+          className="absolute top-[38%] right-[70%]"
           data-aos="fade-down-right"
         >
           <img src="/images/section-2/char_4.png" className="w-[80%]" />
         </div>
 
         <div
-          className="absolute top-[53.5%] right-[25%]"
+          className="absolute top-[55%] right-[25%]"
           data-aos="fade-down-left"
         >
           <img src="/images/section-2/char_6.PNG" className="w-[100%]" />
         </div>
 
         <div
-          className="absolute top-[69%] right-[60%]"
+          className="absolute top-[70%] right-[60%]"
           data-aos="fade-down-right"
         >
           <img src="/images/section-2/char_2.png" className="w-[80%]" />
