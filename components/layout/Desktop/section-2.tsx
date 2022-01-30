@@ -138,7 +138,7 @@ function DesktopSection2() {
           <img
             src="/images/desktop-section-2/character_1.PNG"
             alt=""
-            className="w-[20%] ml-10"
+            className="w-[14%] ml-10"
           />
         </Parallax>
       </div>
