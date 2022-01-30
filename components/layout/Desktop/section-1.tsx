@@ -132,6 +132,9 @@ function DesktopSection1() {
                     <img src="/images/icons/tele.PNG" className="" />
                   </button>
                   <button className="w-2/12 px-3">
+                    <img src="/images/icons/Email.PNG" className="" />
+                  </button>
+                  <button className="w-2/12 px-3">
                     <img src="/images/icons/twit.PNG" className="" />
                   </button>
                   <button className="w-2/12 px-3">
