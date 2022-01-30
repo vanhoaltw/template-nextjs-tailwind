@@ -128,7 +128,7 @@ function DesktopSection2() {
           <img
             src="/images/section-3/window.gif"
             alt=""
-            className="absolute top-28 scale-150 h-[15%] w-[80%] "
+            className="absolute top-32 scale-150 h-[15%] w-[80%] "
           />
         </div>
         <Parallax
@@ -141,6 +141,13 @@ function DesktopSection2() {
             className="w-[14%] ml-10"
           />
         </Parallax>
+        <div className="z-10 absolute bottom-[10%] -left-2 flex items-center justify-center w-full p-8">
+          <img
+            src="/images/desktop-section-2/stair_1.PNG"
+            alt=""
+            className="z-100  w-1/2"
+          />
+        </div>
       </div>
       {/* section-5 */}
       <div className="relative">
@@ -167,7 +174,7 @@ function DesktopSection2() {
             <img src="/images/section-3/the_door.gif" alt="" className=" " />
           </div>
         </div>
-        <div className="absolute bottom-[0%] w-full flex items-center justify-between z-20">
+        <div className="absolute bottom-[5%] w-full flex items-center justify-between z-20">
           <div className="flex items-center justify-center">
             <img
               src="/images/desktop-section-2/logo_2.png"
@@ -179,17 +186,17 @@ function DesktopSection2() {
             />
           </div>
           <div className="flex items-center justify-center">
-            <button className="w-3/12">
-              <img src="/images/desktop-section-2/telegram.PNG" className="" />
+            <button className="w-2/12 px-3">
+              <img src="/images/icons/tele.PNG" className="" />
             </button>
-            <button className="w-2/12">
-              <img src="/images/desktop-section-2/twiter.PNG" className="" />
+            <button className="w-2/12 px-3">
+              <img src="/images/icons/twit.PNG" className="" />
             </button>
-            <button className="w-2/12">
-              <img src="/images/desktop-section-2/facebook.PNG" className="" />
+            <button className="w-2/12 px-3">
+              <img src="/images/icons/fb.PNG" className="" />
             </button>
-            <button className="w-2/12">
-              <img src="/images/desktop-section-2/discord.png" className="" />
+            <button className="w-2/12 px-3">
+              <img src="/images/icons/disc.png" className="" />
             </button>
           </div>
         </div>
