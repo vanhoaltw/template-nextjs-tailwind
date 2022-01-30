@@ -143,14 +143,14 @@ function Section1() {
             <img
               src="/images/animation/trailer_frame.png"
               alt="bg-full"
-              className="w-5/6 "
+              className="w-5/6 z-10 "
             />
             {!isOpenDialog ? (
               <>
                 <img
                   src="/images/animation/trailer_gif.gif"
                   alt="bg-full"
-                  className="w-4/6 absolute top-6 z-100"
+                  className="w-[77%] absolute top-4 z-0"
                 />
                 <div className="w-full flex items-center justify-center absolute top-1/3">
                   <button

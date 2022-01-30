@@ -153,39 +153,15 @@ function DesktopSection1() {
           className="w-full h-full"
         />
         <div className="absolute -top-8 w-full flex items-center justify-center">
-          <img
-            src="/images/animation/trailer_frame.png"
-            alt="bg-full"
-            className="w-1/2 "
-          />
-          {!isOpenDialog ? (
-            <>
-              <img
-                src="/images/animation/trailer_gif.gif"
-                alt="bg-full"
-                className="w-1/3 absolute top-[5.5rem] z-100"
-              />
-              <div className="w-1/3 flex items-center justify-center absolute top-[45%]">
-                <button
-                  className="z-200 w-2/12"
-                  onClick={() => setIsOpenDialog(true)}
-                >
-                  <img src="/images/animation/play_trailer.gif" alt="bg-full" />
-                </button>
-              </div>
-            </>
-          ) : (
-            <video
-              autoPlay
-              controls
-              className="absolute top-6 z-100 w-[42.333333%] "
-            >
-              <source
-                src="/images/desktop-section-2/trailer_frame/15.mp4"
-                type="video/mp4"
-              />
-            </video>
-          )}
+          <img src="/images/desktop-section-1/video.png" className="w-3/5" />
+        </div>
+        <div className="absolute top-1/4 w-full flex items-center justify-center">
+          <button className="w-1/12" onClick={() => setIsOpenDialog(true)}>
+            <img
+              src="/images/desktop-section-1/btn_play_video.png"
+              className="w-full"
+            />
+          </button>
         </div>
         <div className="absolute bottom-[-8%] w-full flex items-center justify-center z-20">
           <img src="/images/desktop-section-1/main_button.PNG" className="" />
@@ -311,10 +287,10 @@ function DesktopSection1() {
         </div>
 
         <div
-          className="absolute top-[55%] right-[25%]"
+          className="absolute top-[51%] right-[25%] w-[17%]"
           data-aos="fade-down-left"
         >
-          <img src="/images/section-2/char_6.PNG" className="w-[100%]" />
+          <img src="/images/desktop-section-1/char_9.PNG" className="w-full" />
         </div>
 
         <div
@@ -324,6 +300,15 @@ function DesktopSection1() {
           <img src="/images/section-2/char_2.png" className="w-[80%]" />
         </div>
       </div>
+      <Dialog
+        isOpen={isOpenDialog}
+        onClose={() => setIsOpenDialog(false)}
+        className="w-full"
+      >
+        <video width="800" autoPlay>
+          <source src="/images/desktop-section-1/intro.mp4" type="video/mp4" />
+        </video>
+      </Dialog>
     </>
   )
 }
