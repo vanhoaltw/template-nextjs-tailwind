@@ -293,7 +293,7 @@ function DesktopSection1() {
           className="absolute top-[51%] right-[25%] w-[17%]"
           data-aos="fade-down-left"
         >
-          <img src="/images/desktop-section-1/char_9.png" className="w-full" />
+          <img src="/images/section-2/char_9.PNG" className="w-full" />
         </div>
 
         <div
