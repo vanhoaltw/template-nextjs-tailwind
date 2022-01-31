@@ -134,27 +134,27 @@ function Section1() {
             />
           </button>
         </div>
-        <div className="z-0">
+        <div className="z-0 ">
           <div className=" block ">
             <img src="/images/section-1/bg.png" alt="bg-full" className=" " />
           </div>
           <img src="/images/section-1/footer.png" alt="bg-full" />
-          <div className="absolute bottom-0 py-2 w-full flex items-center justify-center">
+          <div className=" w-full h-full flex items-center justify-center">
             <img
               src="/images/animation/trailer_frame.png"
               alt="bg-full"
-              className="w-5/6 z-10 "
+              className="w-[87.333333%] z-10 h-[50%] absolute bottom-0"
             />
             {!isOpenDialog ? (
               <>
                 <img
                   src="/images/animation/trailer_gif.gif"
                   alt="bg-full"
-                  className="w-[77%] absolute top-4 z-0"
+                  className="w-[80%]  z-0 absolute bottom-2"
                 />
-                <div className="w-full flex items-center justify-center absolute top-1/3">
+                <div className="w-full flex items-center justify-center  absolute bottom-[17%]">
                   <button
-                    className="z-200 w-2/12"
+                    className="z-200 w-2/12 "
                     onClick={() => setIsOpenDialog(true)}
                   >
                     <img
@@ -165,7 +165,11 @@ function Section1() {
                 </div>
               </>
             ) : (
-              <video autoPlay controls className="absolute top-6 z-100 w-4/6">
+              <video
+                autoPlay
+                controls
+                className="absolute bottom-2 z-0 w-[79.666667%]"
+              >
                 <source
                   src="/images/desktop-section-1/intro.mp4"
                   type="video/mp4"

@@ -141,7 +141,7 @@ function DesktopSection1() {
                     <img src="/images/buttons/icons/fb.PNG" className="" />
                   </button>
                   <button className="w-2/12 px-3">
-                    <img src="/images/buttons/icons/disc.png" className="" />
+                    <img src="/images/buttons/icons/disc.PNG" className="" />
                   </button>
                 </div>
               </div>
