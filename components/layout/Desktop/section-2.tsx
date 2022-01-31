@@ -187,19 +187,19 @@ function DesktopSection2() {
           </div>
           <div className="flex items-center justify-center">
             <button className="w-2/12 px-3">
-              <img src="/images/icons/tele.PNG" className="" />
+              <img src="/images/buttons/icons/tele.PNG" className="" />
             </button>
             <button className="w-2/12 px-3">
-              <img src="/images/icons/twit.PNG" className="" />
+              <img src="/images/buttons/icons/twit.PNG" className="" />
             </button>
             <button className="w-2/12 px-3">
-              <img src="/images/icons/fb.PNG" className="" />
+              <img src="/images/buttons/icons/fb.PNG" className="" />
             </button>
             <button className="w-2/12 px-3">
-              <img src="/images/icons/disc.png" className="" />
+              <img src="/images/buttons/icons/disc.png" className="" />
             </button>
             <button className="w-2/12 px-3">
-              <img src="/images/icons/Email.PNG" className="" />
+              <img src="/images/buttons/icons/Email.PNG" className="" />
             </button>
           </div>
         </div>
