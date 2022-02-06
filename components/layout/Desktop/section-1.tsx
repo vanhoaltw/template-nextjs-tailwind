@@ -94,7 +94,7 @@ function DesktopSection1() {
                 <div className="absolute -top-10 w-[50%] flex items-center justify-between">
                   <button className="z-10 mx-1 mt-10 md:mt-14 lg:mt-20 w-[18%]">
                     <img
-                      src="/images/desktop-section-1/blue_button.PNG"
+                      src="/images/buttons/blue_button.PNG"
                       className="w-full"
                     />
                   </button>

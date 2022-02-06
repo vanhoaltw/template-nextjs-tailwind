@@ -102,6 +102,7 @@ function Section1() {
             className="w-[60%] "
           />
         </div>
+
         {/* button play now*/}
         <div className="absolute bottom-4 w-full h-full flex flex-col items-center justify-end z-50 gap-y-10">
           <button
@@ -115,6 +116,28 @@ function Section1() {
               className="absolute top-0"
             />
           </button>
+        </div>
+        <div className="absolute bottom-[-54%] w-full h-full flex  items-center justify-end z-50 px-2">
+          <div className="flex items-center justify-start w-1/2">
+            <img src="/images/desktop-section-2/logo_2.png" className="w-1/3" />
+          </div>
+          <div className="flex items-center justify-end w-1/2 mt-6">
+            <button className="w-[12.666667%] ">
+              <img src="/images/buttons/icons/tele.PNG" className="" />
+            </button>
+            <button className="w-[12.666667%] ">
+              <img src="/images/buttons/icons/Email.PNG" className="" />
+            </button>
+            <button className="w-[12.666667%] ">
+              <img src="/images/buttons/icons/twit.PNG" className="" />
+            </button>
+            <button className="w-[12.666667%] ">
+              <img src="/images/buttons/icons/fb.PNG" className="" />
+            </button>
+            <button className="w-[12.666667%]">
+              <img src="/images/buttons/icons/disc.PNG" className="" />
+            </button>
+          </div>
         </div>
       </div>
       <div className="relative">
@@ -154,7 +177,7 @@ function Section1() {
                 />
                 <div className="w-full flex items-center justify-center  absolute bottom-[17%]">
                   <button
-                    className="z-200 w-2/12 "
+                    className="z-200 w-[12.666667%] "
                     onClick={() => setIsOpenDialog(true)}
                   >
                     <img

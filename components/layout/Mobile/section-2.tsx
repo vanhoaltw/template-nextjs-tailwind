@@ -16,22 +16,17 @@ function Section2() {
             className="absolute top-0 z-10"
           />
           <img
-            src="/images/animation/mobile_2.gif"
+            src="/images/animation/pink_bg.gif"
             alt=""
-            className="absolute top-24 scale-150"
+            className="absolute top-24 scale-150 w-[64%] left-[19%]"
           />
         </div>
-        <div className="icons covid absolute top-4 right-0 z-20 w-full flex items-center justify-end slide-bottom">
-          <div className="w-full flex flex-col items-end justify-end">
+        <div className="icons covid absolute top-[28%] right-0 z-20 w-full flex items-center justify-end slide-bottom">
+          <div className="w-full flex flex-col items-center justify-center ">
             <img
-              src="/images/section-2/covid1.PNG"
+              src="/images/animation/covid_3.gif"
               alt=""
-              className="z-20 w-3/12 mr-1 "
-            />
-            <img
-              src="/images/section-2/stone1.png"
-              alt=""
-              className="z-20 w-3/12"
+              className="z-20 w-1/3"
             />
           </div>
         </div>
