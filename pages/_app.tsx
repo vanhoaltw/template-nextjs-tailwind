@@ -24,8 +24,8 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return (
     <MoralisProvider
-      appId="NZAXxtlGXuGlrsSMYvN9ZQBxPUNKPx6ONi9rPhFJ"
-      serverUrl="https://bc5p8th0mn7z.usemoralis.com:2053/server"
+      appId="7C6Bsu3uPh3vKlt763hrVa0caWUulIWNfjfydqjM"
+      serverUrl="https://yzvmgqckyikz.usemoralis.com:2053/server"
     >
       <ToastProvider>
         <AlertProvider>
