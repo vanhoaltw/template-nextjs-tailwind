@@ -22,17 +22,6 @@ jobs:
           SSH_GITHUB_PRIVATE_KEY: ${{secrets.SSH_GITHUB_PRIVATE_KEY}}
           SSH_GITHUB_PUBLIC_KEY: ${{secrets.SSH_GITHUB_PUBLIC_KEY}}
 
-      - name: Install PM2
-        run: npm i pm2 yarn -g
-
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Builds the production application
-        run: yarn build
-
       - name: Deploy
         run: |
-          scp -o 'StrictHostKeyChecking no' -r .next root@167.71.194.220:/var/www/tabbymoon/
-          git checkout .
-          ssh root@167.71.194.220 'cd /var/www/tabbymoon/ && git pull origin master && pm2 restart ecosystem.config.js && pm2 save'
+          ssh root@167.71.194.220 'cd /var/www/tabbymoon/ && git pull origin master && && yarn install && yarn build && pm2 restart ecosystem.config.js && pm2 save'
