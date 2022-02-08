@@ -122,7 +122,7 @@ function DesktopSection2() {
           <img
             src="/images/section-3/tokenomics_button.gif"
             alt=""
-            className="absolute w-[20%] top-[48%]"
+            className="absolute w-[14%] top-[52%]"
           />
         </div>
       </div>
