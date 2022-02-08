@@ -110,7 +110,7 @@ function Section3() {
         </div>
       </div>
       <div className="relative overflow-hidden">
-        <div className="bg">
+        <div className="bg relative">
           <img
             src="/images/section-3/background_2_2.PNG"
             alt=""
@@ -124,13 +124,26 @@ function Section3() {
           <img
             src="/images/section-3/window.gif"
             alt=""
-            className="absolute top-[50%]  z-0 w-full max-w-[400px]"
+            className="absolute top-[55%] left-[4%]  z-0 w-full max-w-[90%]"
+          />
+        </div>
+        <div className="absolute top-10 z-100 flex flex-col gap-4 items-center">
+          <img
+            src="/images/section-3/tokenomics_supply.gif"
+            alt=""
+            className="w-[40%]"
+          />
+          <img src="/images/section-3/tokenomics.PNG" alt="" className="" />
+          <img
+            src="/images/section-3/tokenomics_button.gif"
+            alt=""
+            className="absolute w-[20%] top-[48%]"
           />
         </div>
       </div>
       <div className="relative">
         <Parallax
-          translateY={[-80, 330]}
+          translateY={[0, 400]}
           className="absolute top-[-23%] flex items-center justify-center w-full pl-4 z-100"
         >
           <img
@@ -139,17 +152,23 @@ function Section3() {
             className="w-1/4"
           />
         </Parallax>
-        <div className="absolute bottom-[10%] flex items-center justify-center w-full p-8">
-          <img src="/images/section-3/stone_1.PNG" alt="" className="z-100 " />
-        </div>
         <div className="bg">
           <img
             src="/images/section-3/background_2_3.PNG"
             alt=""
-            data-aos="fade-down-right"
             className="static top-0 z-10 "
           />
         </div>
+        <img
+          src="/images/section-3/Road.gif"
+          alt=""
+          className="absolute top-[33%] left-[34%] w-[30%] h-[61%] z-50"
+        />
+        <img
+          src="/images/section-3/roadmap_1.PNG"
+          alt=""
+          className="absolute top-[15%] w-full"
+        />
       </div>
       <div className="relative overflow-hidden">
         <div className="absolute bottom-[30%] flex items-start w-3/4 px-4 ml-10">
