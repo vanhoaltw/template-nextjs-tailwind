@@ -249,58 +249,59 @@ function DesktopSection1() {
         </div>
       </div>
       {/* section-5 */}
-      <div className="h-full w-full relative">
-        <div className="absolute top-[-2%] w-full flex items-center justify-center">
+      <div className="w-full relative">
+        <img
+          src="/images/desktop-section-1/main_background_5.png"
+          className="w-full"
+        />
+        <div className="absolute top-[-2%] z-50 w-full flex items-center justify-center">
           <img
             src="/images/desktop-section-1/main_button.PNG"
             alt=""
             className=""
           />
         </div>
-        <img
-          src="/images/desktop-section-1/main_background_5.png"
-          className="w-full h-full"
-        />
-        <div className="absolute top-10 mt-96 w-full flex flex-col items-center justify-center">
-          <div className="w-full flex justify-center items-center">
-            <img
-              src="/images/desktop-section-1/floor_1.PNG"
-              className="w-full h-full"
-            />
+        <div className="absolute w-full h-full top-0 z-0">
+          <img
+            src="/images/desktop-section-1/main_background_5.png"
+            className="w-full"
+          />
+          <img
+            src="/images/desktop-section-1/floor_1.PNG"
+            className="w-[100%] h-auto absolute top-[25%]"
+          />
+          <div
+            className="absolute top-[4%] left-[30%] w-[18%]"
+            data-aos="fade-down-right"
+          >
+            <img src="/images/section-2/char_3.png" className="" />
           </div>
-        </div>
-        <div
-          className="absolute top-[2.5%] right-[40%]"
-          data-aos="fade-down-right"
-        >
-          <img src="/images/section-2/char_3.png" className="w-[80%]" />
-        </div>
-        <div
-          className="absolute top-[20.5%] right-[6%]"
-          data-aos="fade-down-left"
-        >
-          <img src="/images/section-2/char1.png" className="w-[90%]" />
-        </div>
+          <div
+            className="absolute top-[25%] right-[20%] w-[20%]"
+            data-aos="fade-down-left"
+          >
+            <img src="/images/section-2/char1.png" className="" />
+          </div>
+          <div
+            className="absolute top-[38.5%] left-[12%] w-[20%]"
+            data-aos="fade-down-right"
+          >
+            <img src="/images/section-2/char_4.png" className="" />
+          </div>
 
-        <div
-          className="absolute top-[38%] right-[70%]"
-          data-aos="fade-down-right"
-        >
-          <img src="/images/section-2/char_4.png" className="w-[80%]" />
-        </div>
+          <div
+            className="absolute top-[56.2%] right-[20%] w-[17%]"
+            data-aos="fade-down-left"
+          >
+            <img src="/images/section-2/char_9.PNG" className="" />
+          </div>
 
-        <div
-          className="absolute top-[51%] right-[25%] w-[17%]"
-          data-aos="fade-down-left"
-        >
-          <img src="/images/section-2/char_9.PNG" className="w-full" />
-        </div>
-
-        <div
-          className="absolute top-[70%] right-[60%]"
-          data-aos="fade-down-right"
-        >
-          <img src="/images/section-2/char_2.png" className="w-[80%]" />
+          <div
+            className="absolute top-[71.6%] left-[16%] w-[28%]"
+            data-aos="fade-down-right"
+          >
+            <img src="/images/section-2/char_2.png" className="" />
+          </div>
         </div>
       </div>
       <Dialog

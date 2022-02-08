@@ -111,7 +111,21 @@ function DesktopSection2() {
         </div>
       </div>
       {/* section-3 */}
-      <div className="bg-desktop-2-3 h-[125rem] w-full relative"></div>
+      <div className="bg-desktop-2-3 h-[125rem] w-full relative">
+        <div className="absolute top-[43%] w-full z-100 flex flex-col gap-4 items-center">
+          <img
+            src="/images/section-3/tokenomics_supply.gif"
+            alt=""
+            className="w-[40%]"
+          />
+          <img src="/images/section-3/tokenomics.PNG" alt="" className="" />
+          <img
+            src="/images/section-3/tokenomics_button.gif"
+            alt=""
+            className="absolute w-[20%] top-[48%]"
+          />
+        </div>
+      </div>
       {/* section-4 */}
       <div className="relative">
         <div className="bg">
@@ -141,11 +155,16 @@ function DesktopSection2() {
             className="w-[14%] ml-10"
           />
         </Parallax>
-        <div className="z-10 absolute bottom-[10%] -left-2 flex items-center justify-center w-full p-8">
+        <img
+          src="/images/section-3/Road.gif"
+          alt=""
+          className="absolute top-[54%] left-[39%] w-[21%] h-[46%] z-50"
+        />
+        <div className="flex items-center justify-center w-full">
           <img
-            src="/images/desktop-section-2/stair_1.PNG"
+            src="/images/section-3/roadmap_1.PNG"
             alt=""
-            className="z-100  w-1/2"
+            className="absolute top-[40%] w-[70%] z-50"
           />
         </div>
       </div>
