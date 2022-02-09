@@ -21,7 +21,7 @@ export default function HomePage() {
   }, [])
   if (loaded) console.log('loaded')
   const sm = useScreen('sm')
-  if (!loaded) return <Loading></Loading>
-  else if (sm && loaded) return <DesktopLayout></DesktopLayout>
+  // if (!loaded) return <Loading></Loading>else
+  if (sm) return <DesktopLayout></DesktopLayout>
   else return <MobileLayout></MobileLayout>
 }
