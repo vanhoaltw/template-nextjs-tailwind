@@ -1,5 +1,5 @@
 {
-  "name": "tabby-moon-next",
+  "name": "template-next-tailwind",
   "private": true,
   "scripts": {
     "dev": "next dev",
